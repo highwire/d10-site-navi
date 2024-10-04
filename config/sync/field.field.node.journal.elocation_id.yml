@@ -1,0 +1,22 @@
+uuid: 2c68c845-476a-4ef2-a81d-0b49594ec80c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.elocation_id
+    - node.type.journal
+  module:
+    - text
+id: node.journal.elocation_id
+field_name: elocation_id
+entity_type: node
+bundle: journal
+label: elocation-id
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

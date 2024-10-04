@@ -1,0 +1,14 @@
+uuid: 54551e20-90e1-45ff-8c0b-84b7f024327a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: VI2jGrl78O4D2XcnKC1A7kDNn1I5qyV-plCc83-ytnI
+id: year_archive
+label: 'Year Archive'
+description: ''
+use_admin_theme: false
+path: /content/by/year
+access_logic: and
+access_conditions: {  }
+parameters: {  }

@@ -1,0 +1,19 @@
+uuid: 55692aa0-b15e-48bb-93ad-e888dc6782d0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: x0ZUtUssBZN4ZeDjC0Pz2vle0jVyiszPj5d1c3ifCQI
+id: jcorex_papers
+label: 'Jcorex Papers'
+configurations:
+  -
+    markup_profile: jcorex_papers
+    access_rule: ''
+    field_group_settings:
+      field_group_formatter: '0'
+    weight: '1'
+markup_field_enabled: false
+markup_field_content_types: {  }
+log: false
+render_placeholder: false

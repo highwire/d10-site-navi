@@ -1,0 +1,23 @@
+uuid: 467c2689-1e03-4585-ab8a-a26217afed34
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.enclosures
+field_name: enclosures
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

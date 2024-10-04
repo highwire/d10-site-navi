@@ -1,0 +1,22 @@
+uuid: ec510b20-2a07-484b-8150-e4b4bfc66e46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.journal_eissn
+    - node.type.journal_fragment
+  module:
+    - text
+id: node.journal_fragment.journal_eissn
+field_name: journal_eissn
+entity_type: node
+bundle: journal_fragment
+label: journal-eissn
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

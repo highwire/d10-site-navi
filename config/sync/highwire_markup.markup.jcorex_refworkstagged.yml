@@ -1,0 +1,12 @@
+uuid: 70ad69a0-7612-4b34-bda4-94990e4b57cf
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: U1AIr1oE6F2GSWiUITuH99LOKYt9k7qmY4lHbTtcI2c
+id: jcorex_refworkstagged
+label: 'Jcorex RefWorkstagged'
+profile_id: jcorex-refworkstagged
+configuration: {  }
+dw_logging: null
+exists_field: ''

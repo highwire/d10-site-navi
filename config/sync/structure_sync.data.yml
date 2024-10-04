@@ -1,0 +1,517 @@
+_core:
+  default_config_hash: 12cUBEGixXIGW6ewF97eTBAIpi-OmivzUDPk8Ie3-is
+blocks:
+  -
+    info: umbrellamenu_image
+    langcode: en
+    uuid: 46ee4385-a166-4c48-a692-23909df2cc94
+    bundle: image_block
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_image:
+        -
+          target_id: '674'
+          alt: header_logo
+          title: ''
+          width: '96'
+          height: '39'
+      field_url:
+        -
+          uri: 'internal:/'
+          title: ''
+          options: {  }
+  -
+    info: 'Powered by Highwire'
+    langcode: en
+    uuid: bb4081a4-0915-4aa6-ba2e-8b04e969a612
+    bundle: image_block
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_image:
+        -
+          target_id: '676'
+          alt: 'Powered by Highwire'
+          title: ''
+          width: '190'
+          height: '31'
+      field_url: {  }
+  -
+    info: 'About Journal Section'
+    langcode: en
+    uuid: a60dcac5-a904-4f62-bc50-023efeed4036
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p><img alt=\"Logo\" data-entity-type=\"file\" data-entity-uuid=\"03244241-f1f9-4a4c-9c5a-b55410f8e93a\" height=\"169\" src=\"/sites/default/files/inline-images/home-banner.jpg\" width=\"723\" /></p>\r\n\r\n<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Hello</p>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'All Journals'
+    langcode: en
+    uuid: 398ce8d1-2443-4eae-b710-5a3d9d25d57a
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: Copyright
+    langcode: en
+    uuid: 9431861c-4df0-4ea7-a951-a1917dbc1a8c
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p><a href="https://www.cmaj.ca/copyright">Copyright 2024</a>, NAVI Impact Inc.&nbsp;or its licensors.&nbsp;All rights reserved. ISSN 1488-2329 (e) 0820-3946 (p)</p><p>All editorial matter in NAVI represents the opinions of the authors and not necessarily those of the Canadian Medical Association or its subsidiaries.</p><p>To receive any of these resources&nbsp;in an accessible format, please contact us at NAVI Group, 500-1410 Blair Towers Place, Ottawa ON, K1J 9B9; p: 1-888-855-2555;&nbsp;</p><p>NAVI &nbsp;<a href="https://www.cma.ca/terms-and-conditions#civility">Civility</a>, <a href="https://www.cma.ca/accessibility">Accessibility</a>, <a href="https://www.cma.ca/privacy-policies-cma-and-its-subsidiaries">Privacy</a></p>'
+          summary: ''
+          format: basic_html
+  -
+    info: 'Footer Social icon'
+    langcode: en
+    uuid: 5e70a744-8b8a-4176-a1ff-a0cd3da8e401
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"flex flex-wrap\">\r\n<div class=\"flex-grow w-full social-share\"><a class=\"twitter\" href=\"https://twitter.com/bpsofficial\" title=\"Follow BPS Publishing on Twitter\"><svg height=\"21px\" version=\"1.1\" viewbox=\"0 0 22 21\" width=\"22px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n<title></title>\r\n<g fill=\"none\" fill-rule=\"evenodd\" id=\"Symbols\" stroke=\"none\" stroke-width=\"1\"><g id=\"twitter\"><rect height=\"20.38\" id=\"Rectangle\" width=\"22\" x=\"0\" y=\"0\"></rect><path d=\"M22,3.11658333 C21.1905833,3.47591667 20.3206667,3.71791667 19.4076667,3.827 C20.3399167,3.26875 21.0558333,2.38416667 21.39225,1.33 C20.5205,1.847 19.5543333,2.22283333 18.5258333,2.42541667 C17.7035833,1.54816667 16.5293333,1 15.2313333,1 C12.31725,1 10.1759167,3.71883333 10.8340833,6.54125 C7.084,6.35333333 3.75833333,4.55666667 1.53175,1.82591667 C0.34925,3.8545 0.9185,6.50825 2.92783333,7.85208333 C2.189,7.82825 1.49233333,7.62566667 0.884583333,7.28741667 C0.835083333,9.37833333 2.33383333,11.3345 4.5045,11.7699167 C3.86925,11.94225 3.1735,11.9825833 2.46583333,11.8469167 C3.03966667,13.6399167 4.70616667,14.9443333 6.6825,14.981 C4.785,16.46875 2.39433333,17.1333333 0,16.851 C1.99741667,18.1315833 4.37066667,18.8786667 6.919,18.8786667 C15.2991667,18.8786667 20.03375,11.8010833 19.74775,5.45316667 C20.6295833,4.81608333 21.395,4.02133333 22,3.11658333 Z\" fill=\"#FFFFFF\" fill-rule=\"nonzero\" id=\"Combined-Shape-Copy\"></path></g></g></svg></a><a class=\"facebook\" href=\"https://www.facebook.com/OfficialBPS/\" title=\"Follow BPS Publishing on Facebook\"><svg height=\"21px\" version=\"1.1\" viewbox=\"0 0 22 21\" width=\"22px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n<title></title>\r\n<g fill=\"none\" fill-rule=\"evenodd\" id=\"Symbols\" stroke=\"none\" stroke-width=\"1\"><g id=\"fb\"><rect height=\"20.38\" id=\"Rectangle-Copy-6\" width=\"22\" x=\"0\" y=\"0\"></rect><path d=\"M9.128,20.375 L9.128,11.081 L6,11.081 L6,7.459 L9.128,7.459 L9.128,4.788 C9.128,1.688 11.021,0 13.787,0 C15.112,0 16.25,0.099 16.582,0.143 L16.582,3.383 L14.664,3.384 C13.16,3.384 12.869,4.099 12.869,5.147 L12.869,7.46 L16.456,7.46 L15.989,11.082 L12.869,11.082 L12.869,20.375 L9.128,20.375 Z\" fill=\"#FFFFFF\" fill-rule=\"nonzero\" id=\"Path-Copy\"></path></g></g></svg></a> <a class=\"youtube\" href=\"https://www.youtube.com/user/bpsmediacentre\" title=\"Follow BPS Publishing on YouTube\"><svg height=\"21px\" version=\"1.1\" viewbox=\"0 0 22 21\" width=\"22px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n<title></title>\r\n<g fill=\"none\" fill-rule=\"evenodd\" id=\"Symbols\" stroke=\"none\" stroke-width=\"1\"><g id=\"yt\"><rect height=\"20.38\" id=\"Rectangle-Copy-8\" width=\"22\" x=\"0\" y=\"0\"></rect><polygon fill=\"#FFFFFF\" fill-rule=\"nonzero\" id=\"Path-Copy\" points=\"3 18 3 2 19 9.986 3 18\"></polygon></g></g></svg></a> <a class=\"linkedin\" href=\"https://www.linkedin.com/company/british-psychological-society/\" title=\"Follow BPS Publishing on LinkedIn\"><svg height=\"21px\" version=\"1.1\" viewbox=\"0 0 22 21\" width=\"22px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n<title></title>\r\n<g fill=\"none\" fill-rule=\"evenodd\" id=\"Symbols\" stroke=\"none\" stroke-width=\"1\"><g id=\"li\"><rect height=\"20.38\" id=\"Rectangle-Copy-7\" width=\"22\" x=\"0\" y=\"0\"></rect><path d=\"M5.83606557,6.66085246 L5.83606557,19.644459 L2.29508197,19.644459 L2.29508197,6.66085246 L5.83606557,6.66085246 Z M11.7377049,6.66085246 L11.7377049,8.74413115 C13.3854426,5.69180328 20,5.46636066 20,11.666623 L20,19.644459 L16.4590164,19.644459 L16.4590164,13.0299016 C16.4590164,9.05455738 11.7377049,9.35554098 11.7377049,13.0299016 L11.7377049,19.644459 L8.19672131,19.644459 L8.19672131,6.66085246 L11.7377049,6.66085246 Z M4.06557377,1 C5.20577049,1 6.13114754,1.93245902 6.13114754,3.08209836 C6.13114754,4.2317377 5.20695082,5.16419672 4.06557377,5.16419672 C2.92537705,5.16419672 2,4.2317377 2,3.08209836 C2,1.93245902 2.92537705,1 4.06557377,1 Z\" fill=\"#FFFFFF\" fill-rule=\"nonzero\" id=\"Combined-Shape-Copy\"></path></g></g></svg></a></div>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Footer branding svg'
+    langcode: en
+    uuid: 12ba5af4-b66d-433f-a62e-6188e249aaa4
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<img data-entity-uuid="9201bbb3-454d-499a-bbe1-b5de71c66f64" data-entity-type="file" src="/sites/default/files/inline-images/demoPT-logo2_2_0.png" alt="Logo">'
+          summary: ''
+          format: full_html
+  -
+    info: 'Left Header logo'
+    langcode: en
+    uuid: 1db558ed-7814-4cc0-bef5-02b3fee925c5
+    bundle: image_block
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_image:
+        -
+          target_id: '448'
+          alt: Logo
+          title: ''
+          width: '351'
+          height: '103'
+      field_url:
+        -
+          uri: 'internal:/'
+          title: ''
+          options: {  }
+  -
+    info: 'Right Header logo'
+    langcode: en
+    uuid: 0cd4b1ee-a6ea-4c05-b945-e37faa1e7032
+    bundle: image_block
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_image:
+        -
+          target_id: '152'
+          alt: Logo
+          title: ''
+          width: '120'
+          height: '46'
+      field_url:
+        -
+          uri: 'internal:/'
+          title: ''
+          options: {  }
+menus:
+  -
+    menu_name: umbrella-menu
+    title: HWJMA
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -50
+    langcode: en
+    uuid: 592f149e-0545-4e81-88f7-6b655f399081
+  -
+    menu_name: umbrella-menu
+    title: HWJMS
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: bff06ddc-2238-484b-9ab4-74646d1debbe
+  -
+    menu_name: umbrella-menu
+    title: 'Menu 3'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 48960de8-4073-4558-8bde-d104d20f317e
+  -
+    menu_name: browse-content
+    title: Journals
+    parent: null
+    uri: 'internal:/all-journals'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -50
+    langcode: en
+    uuid: 14d49326-49f2-48a9-85f2-2ea335206c6d
+  -
+    menu_name: browse-content
+    title: 'Reports & Guidelines'
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -49
+    langcode: en
+    uuid: 95917c2c-64f8-427a-b096-9816e420ff5b
+  -
+    menu_name: browse-content
+    title: Monographs
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -48
+    langcode: en
+    uuid: 017fc05d-f49c-4d83-a270-4364d3a27d1c
+  -
+    menu_name: browse-content
+    title: 'Test Reviews'
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -47
+    langcode: en
+    uuid: 65183c40-768e-4875-adaf-c295dbfe361e
+  -
+    menu_name: content
+    title: Periodicals
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 567e3c8f-db5d-443c-8cf8-07119eaef766
+  -
+    menu_name: content
+    title: 'Reports & Guidelines'
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 2282fe32-5724-4828-9f12-b6068155c7db
+  -
+    menu_name: content
+    title: Monographs
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 552e3ae8-45bf-4260-8614-384333863162
+  -
+    menu_name: content
+    title: 'Test Reviews'
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: ca25c888-4991-4d70-8fd9-c23dda5516b5
+  -
+    menu_name: information
+    title: Members
+    parent: null
+    uri: 'internal:/Members'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -50
+    langcode: en
+    uuid: 8797e1f1-224c-4c3d-8839-8888120d4c20
+  -
+    menu_name: information
+    title: Authors
+    parent: null
+    uri: 'internal:/Authors'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -49
+    langcode: en
+    uuid: ab3726ea-64c6-4609-bf07-fb9848e3b45d
+  -
+    menu_name: information
+    title: Institutions
+    parent: null
+    uri: 'internal:/Institutions'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -48
+    langcode: en
+    uuid: 31711e5d-7e60-4ff0-b67f-793eb555504a
+  -
+    menu_name: information
+    title: Advertisers
+    parent: null
+    uri: 'internal:/advertise-us'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -47
+    langcode: en
+    uuid: aa705013-4d6b-4220-a589-1e15f69e5fcc
+  -
+    menu_name: resources
+    title: 'About us'
+    parent: null
+    uri: 'internal:/about-us'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: d6a5379c-9739-4fad-90ec-66d0c1472bab
+  -
+    menu_name: resources
+    title: FAQs
+    parent: null
+    uri: 'internal:/FAQs'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: f58dc4da-5f14-40ef-88a0-66e1b6e92467
+  -
+    menu_name: resources
+    title: Permissions
+    parent: null
+    uri: 'internal:/permissions'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: e982997a-e259-40cf-b3d6-d922277819df
+  -
+    menu_name: legal
+    title: 'Privacy policy'
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 57f726c8-50b7-4ef1-a546-24244e63c0bd
+  -
+    menu_name: legal
+    title: 'Cookie information'
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 885e1134-dbc2-42b8-8736-4a567f624d0b
+  -
+    menu_name: legal
+    title: 'Terms of use'
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 3ff29e19-a621-4be1-93c0-fb49c215b64b
+  -
+    menu_name: legal
+    title: Accessibility
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 785c7f00-aac7-46d2-8ab7-0469e1055aab
+  -
+    menu_name: main
+    title: Information
+    parent: null
+    uri: 'internal:/Information'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: true
+    weight: -47
+    langcode: en
+    uuid: 3c824e60-1612-4dc1-8118-caf24e982ff1
+  -
+    menu_name: main
+    title: 'About us'
+    parent: null
+    uri: 'internal:/about-us'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -48
+    langcode: en
+    uuid: 8a964f23-acf0-489a-9838-ed3de2ddc73e
+  -
+    menu_name: main
+    title: Members
+    parent: 'menu_link_content:3c824e60-1612-4dc1-8118-caf24e982ff1'
+    uri: 'internal:/members'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -50
+    langcode: en
+    uuid: 84377d35-4118-4605-971a-d0d82db0ae44
+  -
+    menu_name: main
+    title: Institutions
+    parent: 'menu_link_content:3c824e60-1612-4dc1-8118-caf24e982ff1'
+    uri: 'internal:/institutions'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -48
+    langcode: en
+    uuid: f6e4eef2-4e39-4f5d-b9eb-619a34dbf773
+  -
+    menu_name: main
+    title: Authors
+    parent: 'menu_link_content:3c824e60-1612-4dc1-8118-caf24e982ff1'
+    uri: 'internal:/authors'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -49
+    langcode: en
+    uuid: c91decb9-796d-4d43-9b3e-93c29bb86de7
+  -
+    menu_name: main
+    title: Journals
+    parent: null
+    uri: 'internal:/all-journals'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -46
+    langcode: en
+    uuid: c20357b9-20ab-4411-bbd2-07b28d84d077
+  -
+    menu_name: main
+    title: Advertisers
+    parent: 'menu_link_content:3c824e60-1612-4dc1-8118-caf24e982ff1'
+    uri: 'internal:/advertise-us'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -47
+    langcode: en
+    uuid: 1f374937-1a8d-4d61-938b-ab4188ce5aab
+  -
+    menu_name: main
+    title: 'Current Issue'
+    parent: null
+    uri: 'internal:/content/current'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -50
+    langcode: en
+    uuid: a0be824c-8b59-42b4-88f2-ddc32b8ff33f
+  -
+    menu_name: main
+    title: Archive
+    parent: null
+    uri: 'internal:/content/by/year'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -49
+    langcode: en
+    uuid: c8e36965-1358-479b-b0f0-d589bc7778e0

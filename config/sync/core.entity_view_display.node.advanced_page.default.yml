@@ -1,0 +1,36 @@
+uuid: 9822cecb-0780-4873-879a-3fb58d7c71fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.advanced_page.body
+    - node.type.advanced_page
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 7358rE8zBK-qV9o4zGFZdJYv20MBDhHhf1xn88EOgPY
+id: node.advanced_page.default
+targetEntityType: node
+bundle: advanced_page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  jnl_focus_view: true
+  langcode: true
+  prev_next_pager: true
+  prevnext_toc_pager: true
+  search_api_excerpt: true

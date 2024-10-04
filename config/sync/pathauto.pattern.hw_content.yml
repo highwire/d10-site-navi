@@ -1,0 +1,28 @@
+uuid: 7fc3a864-8600-40ba-8856-2be4065dd5c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 3L1Rb-gQvNYGnZT0aZj6j1qIdMCEwhiFHc0WQ_wCypM
+id: hw_content
+label: 'hw content'
+type: 'canonical_entities:node'
+pattern: '[node:cpath]'
+selection_criteria:
+  b20eca90-774e-485f-a0a4-6d9cafb3b6fd:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: b20eca90-774e-485f-a0a4-6d9cafb3b6fd
+    context_mapping:
+      node: node
+    bundles:
+      journal: journal
+      journal_article: journal_article
+      journal_fragment: journal_fragment
+      journal_issue: journal_issue
+      journal_volume: journal_volume
+selection_logic: and
+weight: -5
+relationships: {  }

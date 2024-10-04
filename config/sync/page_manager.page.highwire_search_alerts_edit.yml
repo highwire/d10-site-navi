@@ -1,0 +1,14 @@
+uuid: b96a9dd3-5791-468f-aefa-b8fcdbc5b6e8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: B97Jp5e_TNk4juBgOc7BKOOeWuYO_FKqACvZb-x6P3s
+id: highwire_search_alerts_edit
+label: 'Highwire Search Alerts Edit'
+description: ''
+use_admin_theme: false
+path: '/alerts/search/edit/{issue}'
+access_logic: and
+access_conditions: {  }
+parameters: {  }

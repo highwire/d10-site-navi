@@ -1,0 +1,84 @@
+uuid: 8bb4d89e-360f-42c3-a263-74e67fd78d28
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.similar_articles
+    - views.view.similar_articles
+  module:
+    - panels
+    - views
+_core:
+  default_config_hash: C5kK4Cm0uXQQglDGzkSxDcgugbOACKIJ8a6VfByK_ZM
+id: similar_articles-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    857a0673-1181-4edb-a162-99ab43166844:
+      id: 'views_block:similar_articles-block_2'
+      label: ''
+      label_display: '0'
+      provider: views
+      views_label: ''
+      items_per_page: '10'
+      context_mapping: {  }
+      region: left
+      weight: 0
+      uuid: 857a0673-1181-4edb-a162-99ab43166844
+    67d90820-09f2-4c1e-82fb-60a067c54807:
+      id: page_title_block
+      label: 'Page title'
+      label_display: '0'
+      provider: core
+      context_mapping: {  }
+      region: top
+      weight: 0
+      uuid: 67d90820-09f2-4c1e-82fb-60a067c54807
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: 4746c574-0c8b-44fb-af1c-7c0ebf6ec97f
+  page_title: 'Similar Articles'
+  layout: bs_2col_stacked
+  layout_settings:
+    label: ''
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 0
+        attributes: 'class|col-12 col-large-tablet-12'
+      left:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-7 col-large-tablet-8 layout__region--first'
+      right:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-5 col-large-tablet-4 layout__region--second'
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  builder: standard
+  storage_type: page_manager
+  storage_id: similar_articles-panels_variant-0
+page: similar_articles
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

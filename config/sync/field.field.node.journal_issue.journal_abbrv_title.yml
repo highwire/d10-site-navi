@@ -1,0 +1,22 @@
+uuid: 138af080-c02d-489a-b383-6485b4eb00c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.journal_abbrv_title
+    - node.type.journal_issue
+  module:
+    - text
+id: node.journal_issue.journal_abbrv_title
+field_name: journal_abbrv_title
+entity_type: node
+bundle: journal_issue
+label: journal-abbrv-title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

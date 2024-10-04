@@ -1,0 +1,12 @@
+uuid: cd11fe43-a278-44c0-a703-7d79e9215779
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: xnItbmNI1p4uR4bquyfTgp5wJT5gnq5-0If9jc3emBY
+id: node.article_tools
+label: 'Article Tools'
+targetEntityType: node
+cache: true

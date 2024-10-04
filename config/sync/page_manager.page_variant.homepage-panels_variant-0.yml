@@ -1,0 +1,144 @@
+uuid: 235c017f-1e4b-49ac-a721-194de9502705
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.homepage
+    - views.view.current_issue
+    - views.view.home_page_hero_banner
+  module:
+    - highwire_top_topics
+    - jnl_core
+    - journal_article_detail
+    - panels
+    - views
+_core:
+  default_config_hash: Zed47a9n1XdvZbKqbSdemOxXNriSb5AOe4JeU6xqHXw
+id: homepage-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    aaf6e23a-1f10-4351-bd54-de73c74d1437:
+      id: 'views_block:home_page_hero_banner-block_1'
+      label: ''
+      label_display: '0'
+      provider: views
+      views_label: ''
+      items_per_page: none
+      context_mapping: {  }
+      region: left
+      weight: -10
+      uuid: aaf6e23a-1f10-4351-bd54-de73c74d1437
+    0fdb5303-3cef-486d-aff0-493a606dbf6f:
+      id: jnl_altmetrics_data
+      label: 'Altmetrics Data'
+      label_display: '0'
+      provider: journal_article_detail
+      context_mapping: {  }
+      region: right
+      weight: 0
+      uuid: 0fdb5303-3cef-486d-aff0-493a606dbf6f
+      description: 'Altmetric tracks attention and engagement of scholarly articles.'
+      month: 6m
+      issns: 1488-2329
+      number_per_page: '5'
+      api_url: 'https://api.altmetric.com/v1/citations/'
+      show_pager: 0
+      more_link: 1
+      more_link_label: 'See more'
+      msg_no_data: 'No Altmetric data available.'
+    5bd05b16-774b-46d5-8592-b3e2c41a95aa:
+      id: 'views_block:current_issue-block_1'
+      label: ''
+      label_display: '0'
+      provider: views
+      views_label: ''
+      items_per_page: none
+      context_mapping: {  }
+      region: left
+      weight: -9
+      uuid: 5bd05b16-774b-46d5-8592-b3e2c41a95aa
+    c59d1620-00b1-4c9d-a443-5cac8c085148:
+      id: most_read_cited_topics
+      label: 'Most Read, Most Cited, Responses'
+      label_display: '0'
+      provider: highwire_top_topics
+      context_mapping: {  }
+      region: right
+      weight: -1
+      uuid: c59d1620-00b1-4c9d-a443-5cac8c085148
+      top_topics: 1
+      top_topics_title: ''
+      most_read: 1
+      most_read_title: ''
+      most_cited: 1
+      most_cited_title: ''
+      eletter_articles: 0
+      eletter_articles_title: ''
+      limit: '5'
+      corpus: '[site:default_jcode]'
+      read_more: 1
+    66c133eb-8897-413a-a49f-56197d807a9f:
+      id: jnl_current_issue
+      label: 'Current Issue'
+      label_display: '0'
+      provider: journal_article_detail
+      context_mapping: {  }
+      region: right
+      weight: -2
+      uuid: 66c133eb-8897-413a-a49f-56197d807a9f
+    c8de770e-3b66-4406-b59a-4be97e69c32c:
+      id: jnl_core_backtotop
+      label: 'Back to top'
+      label_display: '0'
+      provider: jnl_core
+      context_mapping: {  }
+      region: bottom
+      weight: -2
+      uuid: c8de770e-3b66-4406-b59a-4be97e69c32c
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: 61258e05-3ba6-4019-be28-bc2b42b2717d
+  page_title: Homepage
+  layout: bs_2col_stacked
+  layout_settings:
+    label: ''
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 0
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes: {  }
+        add_region_classes: 0
+        attributes: ''
+      left:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-7 col-large-tablet-8 layout__region--first'
+      right:
+        wrapper: div
+        classes: {  }
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-5 col-large-tablet-4 layout__region--second'
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  builder: standard
+  storage_type: page_manager
+  storage_id: homepage-panels_variant-0
+page: homepage
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

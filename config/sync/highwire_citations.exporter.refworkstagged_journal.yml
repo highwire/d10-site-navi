@@ -1,0 +1,15 @@
+uuid: c9e26553-4e7e-4a06-9298-b53abb98c758
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: UkGX8WQuUjB8VfGsU7K9TWzx3CZIjuaK37d-v8t6Eu4
+title: 'RefWorkstagged Journal'
+id: refworkstagged_journal
+export_plugin: refworkstagged
+label: null
+format_type: markup
+citations_tokens: ''
+content_types: {  }
+content_type_prefix: ''
+citations_markup: jcorex_refworkstagged

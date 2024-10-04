@@ -1,0 +1,22 @@
+uuid: 5276fb47-144b-4e6e-b772-a5ccd5a7775d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.keywords_data
+    - node.type.journal_issue
+  module:
+    - text
+id: node.journal_issue.keywords_data
+field_name: keywords_data
+entity_type: node
+bundle: journal_issue
+label: keywords-data
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

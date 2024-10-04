@@ -1,0 +1,22 @@
+uuid: 80115707-72e4-4d4f-b9a2-98264d9b5fd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.page_count
+    - node.type.journal_volume
+  module:
+    - text
+id: node.journal_volume.page_count
+field_name: page_count
+entity_type: node
+bundle: journal_volume
+label: page-count
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

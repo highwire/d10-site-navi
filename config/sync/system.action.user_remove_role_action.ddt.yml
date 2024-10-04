@@ -1,0 +1,14 @@
+uuid: 484b2794-f4b4-4a25-8220-a0429e995eae
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ddt
+  module:
+    - user
+id: user_remove_role_action.ddt
+label: 'Remove the Highwire User - DDT role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ddt

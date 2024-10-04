@@ -1,0 +1,24 @@
+uuid: bede4fed-9b36-41ef-84e3-9176d3403f4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_journal_about
+    - node.type.journal_info
+  module:
+    - text
+_core:
+  default_config_hash: cPtiRrcppI2q1-5vURzJvIU4hhZYSm-klo2IM0YW6D8
+id: node.journal_info.field_journal_about
+field_name: field_journal_about
+entity_type: node
+bundle: journal_info
+label: 'About this journal'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

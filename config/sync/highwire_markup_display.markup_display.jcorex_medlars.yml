@@ -1,0 +1,19 @@
+uuid: edfc13bf-c1fe-4861-927b-640c55d8a278
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AF8s1alVozqAeVZpj9BJIsp42402iyw5cKS37iqx5hs
+id: jcorex_medlars
+label: 'Jcorex Medlars'
+configurations:
+  -
+    markup_profile: jcorex_medlars
+    access_rule: ''
+    field_group_settings:
+      field_group_formatter: '0'
+    weight: '1'
+markup_field_enabled: false
+markup_field_content_types: {  }
+log: false
+render_placeholder: false

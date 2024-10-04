@@ -1,0 +1,17 @@
+uuid: 58d08343-4c81-49d9-920b-270c2ea8f958
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - highwire_top_topics
+_core:
+  default_config_hash: Jb-_JstVNHbfCQxHtelIOh7mR--MlgzrfSkfppF47mo
+id: most_read
+label: 'Most Read'
+description: ''
+use_admin_theme: false
+path: /most-read
+access_logic: and
+access_conditions: {  }
+parameters: {  }

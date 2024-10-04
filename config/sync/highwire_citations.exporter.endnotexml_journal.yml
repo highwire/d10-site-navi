@@ -1,0 +1,15 @@
+uuid: 2acd47ab-8985-41b0-8022-03999e4ca10c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3bmCzTvNC-R2wYH6chSQOKA7fZlE20i8MM6czN_bi-E
+title: 'Endnotexml Journal'
+id: endnotexml_journal
+export_plugin: endnotexml
+label: null
+format_type: markup
+citations_tokens: ''
+content_types: {  }
+content_type_prefix: ''
+citations_markup: jcorex_endnotexml

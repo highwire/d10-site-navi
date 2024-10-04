@@ -1,0 +1,14 @@
+uuid: 53ed8064-ac5e-46df-a23d-08189999f5e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.online_subscriber
+  module:
+    - user
+id: user_add_role_action.online_subscriber
+label: 'Add the HighWire User - Online Subscriber role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: online_subscriber

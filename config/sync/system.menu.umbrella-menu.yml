@@ -1,0 +1,10 @@
+uuid: 83c67696-b802-438c-acba-395083ea600a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vHfY87mvUJMsgSd83slsPBJMIEYMPTjiDfFU5rrBU6c
+id: umbrella-menu
+label: 'Umbrella menu'
+description: ''
+locked: false

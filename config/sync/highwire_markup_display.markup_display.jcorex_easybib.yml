@@ -1,0 +1,19 @@
+uuid: 8037fc68-5f64-44e7-aaf6-632125723a2a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wQaXDe-b6w9MJZ_yzKHYNEA82YFnaULSKKx4ujFOb2Y
+id: jcorex_easybib
+label: 'Jcorex Easybib'
+configurations:
+  -
+    markup_profile: jcorex_easybib
+    access_rule: ''
+    field_group_settings:
+      field_group_formatter: '0'
+    weight: '1'
+markup_field_enabled: false
+markup_field_content_types: {  }
+log: false
+render_placeholder: false

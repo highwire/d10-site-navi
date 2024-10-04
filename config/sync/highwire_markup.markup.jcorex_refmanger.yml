@@ -1,0 +1,12 @@
+uuid: ec042dca-46f7-4901-a1e8-626102d85293
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6qfbpcXC6YzTlXTP5MEgrHKJnlNILRhIs5TLPYaImng
+id: jcorex_refmanger
+label: 'Jcorex Refmanger'
+profile_id: jcorex-refmanger
+configuration: {  }
+dw_logging: null
+exists_field: ''

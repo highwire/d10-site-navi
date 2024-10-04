@@ -1,0 +1,22 @@
+uuid: 26f920ed-6807-443c-92c9-73dfc3625dc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.issn_ppub
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.issn_ppub
+field_name: issn_ppub
+entity_type: node
+bundle: relationship
+label: issn-ppub
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

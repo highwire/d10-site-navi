@@ -1,0 +1,31 @@
+uuid: 64ee9664-05f4-4e27-9252-04cd3c0c1a21
+langcode: en
+status: true
+dependencies:
+  module:
+    - highwire_personalization
+    - system
+  theme:
+    - jcorex_one
+_core:
+  default_config_hash: dh5-Jjn8m4ZirT_qYdcuxIMgQkyQvZnBLUrtE5ilVQU
+id: jcorex_one_highwirepersonalizationuserinfoadminnavigation
+theme: jcorex_one
+region: sidebar_first
+weight: 0
+provider: null
+plugin: highwire_p13n_admin_nav
+settings:
+  id: highwire_p13n_admin_nav
+  label: 'HighWire Personalization: User Info & Admin Navigation'
+  label_display: '0'
+  provider: highwire_personalization
+  show_user_info: 1
+  show_nav: 1
+  log_out_link_text: 'Log out'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/my-account\r\n/my-account/*"

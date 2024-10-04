@@ -1,0 +1,26 @@
+uuid: bbb5a9fe-6df1-43f0-87e6-2aa334d2c552
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.hwmd_abstract_search_index_
+    - node.type.journal_article
+  module:
+    - highwire_markup_display
+third_party_settings:
+  highwire_markup_display:
+    markup_display_id: abstract_search_index_
+_core:
+  default_config_hash: vj4Bo_1LXJ2Hil93RvGFXbNsKaeILNDn8EJ2mlytaxE
+id: node.journal_article.hwmd_abstract_search_index_
+field_name: hwmd_abstract_search_index_
+entity_type: node
+bundle: journal_article
+label: 'HighWire Markup Display - Abstract (Search Index)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: HWMarkupDisplay

@@ -1,0 +1,14 @@
+uuid: 82f7f050-ecbd-4c5e-9592-84ff95f3478d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DuTlv43C5dLkMlrIK_FzX2vaw1GJ1lfexC0YxPjI5kM
+id: highwire_search_alerts_create
+label: 'Highwire Search Alerts Create'
+description: 'Highwire Search Alerts Create'
+use_admin_theme: false
+path: /alerts/search/add
+access_logic: and
+access_conditions: {  }
+parameters: {  }
