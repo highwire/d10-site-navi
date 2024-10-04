@@ -1,0 +1,23 @@
+uuid: bd8e7a71-f549-439f-a294-2f0822ab14b8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - jcorex_one
+_core:
+  default_config_hash: T1uRD5Xwa75RtFvxd9YZEYSiID7IqIzGtMELDZouU7M
+id: jcorex_one_umbrellamenu_image
+theme: jcorex_one
+region: header_top_section
+weight: 0
+provider: null
+plugin: 'block_content:46ee4385-a166-4c48-a692-23909df2cc94'
+settings:
+  id: 'block_content:46ee4385-a166-4c48-a692-23909df2cc94'
+  label: umbrellamenu_image
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

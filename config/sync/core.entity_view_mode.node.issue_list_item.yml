@@ -1,0 +1,12 @@
+uuid: 5cd214e7-515f-4e18-bf41-05383bfac252
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: qnOxkDJRqKgHNZzFZTxP3Wd9qAsVVnIvnHk1msRYMWs
+id: node.issue_list_item
+label: 'Issue List Item'
+targetEntityType: node
+cache: true

@@ -1,0 +1,15 @@
+uuid: f2f67627-23a8-4e27-b091-eaddd913272e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: RZBlw6kDQ86pz2TcNUNMtYfrk9vctvM9Lv_ciY1NVBc
+title: 'Zotero Journal'
+id: zotero_journal
+export_plugin: zotero
+label: null
+format_type: markup
+citations_tokens: ''
+content_types: {  }
+content_type_prefix: ''
+citations_markup: jcorex_zotero

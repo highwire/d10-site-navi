@@ -1,0 +1,24 @@
+uuid: 4fc701d9-d063-4cca-860b-aee641fca042
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.member_network
+    - node.type.relationship
+  module:
+    - text
+_core:
+  default_config_hash: MvBPiFD3gR68WsnebAyGCj8W5ldZWcOQExZLP_p_dao
+id: node.relationship.member_network
+field_name: member_network
+entity_type: node
+bundle: relationship
+label: member-network
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

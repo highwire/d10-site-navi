@@ -1,0 +1,26 @@
+uuid: 7e3d8c6f-9968-43a8-bc3f-fb7117906faa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.hwmd_contributors_plain_
+    - node.type.journal_article
+  module:
+    - highwire_markup_display
+third_party_settings:
+  highwire_markup_display:
+    markup_display_id: contributors_plain_
+_core:
+  default_config_hash: 7Kdc-c_ZgcQWQL0frzJELO5h7_oRFPTSNGA9-YfIv7M
+id: node.journal_article.hwmd_contributors_plain_
+field_name: hwmd_contributors_plain_
+entity_type: node
+bundle: journal_article
+label: 'HighWire Markup Display - Contributors (Plain)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: HWMarkupDisplay

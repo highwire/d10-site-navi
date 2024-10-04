@@ -1,0 +1,14 @@
+uuid: 3bea8468-cca3-4762-ab0b-68c6c4da2a81
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.institutional_admin
+  module:
+    - user
+id: user_remove_role_action.institutional_admin
+label: 'Remove the HighWire User - Institutional Admin role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: institutional_admin

@@ -1,0 +1,15 @@
+uuid: f63e9251-9799-47f5-b3ea-b5c1dd3b396f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PClHAShNcyoGSc7Dia-ZWGuHcVpkw0APF-SsufuRXT0
+title: 'Ref Manager Journal'
+id: refmanger_journal
+export_plugin: refmanger
+label: null
+format_type: markup
+citations_tokens: ''
+content_types: {  }
+content_type_prefix: ''
+citations_markup: jcorex_refmanger

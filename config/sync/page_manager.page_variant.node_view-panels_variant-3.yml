@@ -1,0 +1,158 @@
+uuid: ffade480-8d76-472e-984f-e0b9ce23ba43
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.node_view
+  module:
+    - ctools
+    - highwire_top_topics
+    - jnl_core
+    - jnl_search
+    - journal_article_detail
+    - node
+    - panels
+_core:
+  default_config_hash: jN4xsNSxuFXIm99TZq03xsu0AXBjK7DC_PSFkdQrzj8
+id: node_view-panels_variant-3
+label: issue
+variant: panels_variant
+variant_settings:
+  blocks:
+    c01f57f9-bcc3-4d83-8610-dd23776fcdc5:
+      id: 'entity_view:node'
+      label: 'Entity view (Content)'
+      label_display: '0'
+      provider: ctools
+      view_mode: content_details
+      context_mapping:
+        entity: node
+      region: top
+      weight: 0
+      uuid: c01f57f9-bcc3-4d83-8610-dd23776fcdc5
+    1b634706-f02f-4ad1-b03e-6fdc7d9c3409:
+      id: 'entity_view:node'
+      label: 'Entity view (Content)'
+      label_display: '0'
+      provider: ctools
+      view_mode: full
+      context_mapping:
+        entity: node
+      region: left
+      weight: -10
+      uuid: 1b634706-f02f-4ad1-b03e-6fdc7d9c3409
+    b8d25a7d-c805-4112-9da4-3bd57a8e796a:
+      id: most_read_cited_topics
+      label: 'Most Read, Most Cited, Responses'
+      label_display: '0'
+      provider: highwire_top_topics
+      context_mapping: {  }
+      region: right
+      weight: 0
+      uuid: b8d25a7d-c805-4112-9da4-3bd57a8e796a
+      top_topics: 1
+      top_topics_title: ''
+      most_read: 1
+      most_read_title: ''
+      most_cited: 1
+      most_cited_title: ''
+      eletter_articles: 0
+      eletter_articles_title: ''
+      limit: '8'
+      corpus: '[site:default_jcode]'
+      read_more: 1
+    bb076ee8-45f5-434c-9865-82c80445e220:
+      id: jnl_current_issue
+      label: 'In this Issue'
+      label_display: '0'
+      provider: journal_article_detail
+      context_mapping: {  }
+      region: right
+      weight: -3
+      uuid: bb076ee8-45f5-434c-9865-82c80445e220
+    308378ec-c278-4525-9e28-4d21af763eaf:
+      id: jump_to_section
+      label: 'Jump to Section'
+      label_display: '0'
+      provider: journal_article_detail
+      markup: jump_to_table_of_contents_
+      access_control_rule: ''
+      context_mapping:
+        node: node
+      region: right
+      weight: -1
+      uuid: 308378ec-c278-4525-9e28-4d21af763eaf
+      include_abstract: 0
+      abstract_settings:
+        markup: abstract_search
+        title: ''
+        id: ''
+    8a1b5bea-f406-4f6b-9950-484f89631845:
+      id: jnl_core_backtotop
+      label: 'Back to top'
+      label_display: '0'
+      provider: jnl_core
+      context_mapping: {  }
+      region: left
+      weight: 0
+      uuid: 8a1b5bea-f406-4f6b-9950-484f89631845
+    a35a5255-40c8-4f73-8206-e2283aa78c2a:
+      id: searchBrowse
+      label: 'Search browse block'
+      label_display: '0'
+      provider: jnl_search
+      context_mapping: {  }
+      region: right
+      weight: -2
+      uuid: a35a5255-40c8-4f73-8206-e2283aa78c2a
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: be92a481-5963-4572-a1eb-e8eaad43084c
+  page_title: '[node:journal_title] [node:title]'
+  layout: bs_2col_stacked
+  layout_settings:
+    label: ''
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 0
+      attributes: 'class|journal-page journal-article'
+    regions:
+      top:
+        wrapper: div
+        classes: {  }
+        add_region_classes: 0
+        attributes: class|journals-articles-top
+      left:
+        wrapper: div
+        classes: {  }
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-7 col-large-tablet-8 article__leftbar'
+      right:
+        wrapper: div
+        classes: {  }
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-5 col-large-tablet-4 article__rightbar'
+      bottom:
+        wrapper: div
+        classes:
+          col-md-12: col-md-12
+        add_region_classes: 1
+        attributes: ''
+  builder: standard
+  storage_type: page_manager
+  storage_id: node_view-panels_variant-3
+page: node_view
+weight: 0
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      journal_issue: journal_issue
+selection_logic: and
+static_context: {  }

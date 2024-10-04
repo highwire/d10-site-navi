@@ -1,0 +1,22 @@
+uuid: 85ef8f29-eef1-41d7-8434-76d241802d92
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.section_data
+    - node.type.journal_volume
+  module:
+    - text
+id: node.journal_volume.section_data
+field_name: section_data
+entity_type: node
+bundle: journal_volume
+label: section-data
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

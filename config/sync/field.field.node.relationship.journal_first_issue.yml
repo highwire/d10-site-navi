@@ -1,0 +1,21 @@
+uuid: 1d59c6eb-3a22-49c8-add9-0f08bb8fc86e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.journal_first_issue
+    - node.type.relationship
+id: node.relationship.journal_first_issue
+field_name: journal_first_issue
+entity_type: node
+bundle: relationship
+label: journal-first-issue
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: 22627bb7-92be-4224-b872-fd9df78b0c45
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.doi
+    - node.type.journal_volume
+  module:
+    - text
+id: node.journal_volume.doi
+field_name: doi
+entity_type: node
+bundle: journal_volume
+label: doi
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

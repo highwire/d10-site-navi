@@ -1,0 +1,14 @@
+uuid: 62f10a87-fdaf-4199-aa67-23c327c1612d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tU-vNJ6Ps5gwQMk8FVgZyjyuoZ2Y3jYgUSRcAEGfbmI
+id: all_journals
+label: 'All Journals'
+description: ''
+use_admin_theme: false
+path: /all-journals
+access_logic: and
+access_conditions: {  }
+parameters: {  }

@@ -1,0 +1,27 @@
+uuid: 0e85a352-24c1-45f3-b408-d235c494ca3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.legal
+  module:
+    - system
+  theme:
+    - jcorex_one
+_core:
+  default_config_hash: UP5SBJ4cw3RofHW7-921X6yhOchTkCSOzgb1tKf4bPY
+id: jcorex_one_legal
+theme: jcorex_one
+region: footer_4
+weight: -8
+provider: null
+plugin: 'system_menu_block:legal'
+settings:
+  id: 'system_menu_block:legal'
+  label: Legal
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

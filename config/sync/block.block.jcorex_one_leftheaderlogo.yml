@@ -1,0 +1,23 @@
+uuid: 149ae694-47ff-43a0-8070-6b0c275f6409
+langcode: en
+status: false
+dependencies:
+  theme:
+    - jcorex_one
+_core:
+  default_config_hash: hJW-1sd13hFUfIsHxYFXgWAPWMVvn4ZDYvh87-7TLps
+id: jcorex_one_leftheaderlogo
+theme: jcorex_one
+region: header_branding_1
+weight: -7
+provider: null
+plugin: 'block_content:1db558ed-7814-4cc0-bef5-02b3fee925c5'
+settings:
+  id: 'block_content:1db558ed-7814-4cc0-bef5-02b3fee925c5'
+  label: 'Left Header logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

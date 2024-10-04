@@ -1,0 +1,21 @@
+uuid: 61c7b5b7-525d-4857-9816-b37634ab9e18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.final_published
+    - node.type.relationship
+  module:
+    - datetime_range
+id: node.relationship.final_published
+field_name: final_published
+entity_type: node
+bundle: relationship
+label: final-published
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

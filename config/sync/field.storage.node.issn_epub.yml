@@ -1,0 +1,19 @@
+uuid: 40fd4474-970f-48c4-a70c-a4a42ea5a213
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.issn_epub
+field_name: issn_epub
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

@@ -1,0 +1,22 @@
+uuid: 853ae1ac-dee0-4826-96d6-7b8271c809b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.content_type
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.content_type
+field_name: content_type
+entity_type: node
+bundle: relationship
+label: content-type
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

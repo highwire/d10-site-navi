@@ -1,0 +1,39 @@
+uuid: f08ef39d-0537-49b9-800d-c45f0aa02897
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.authors_full_name
+    - node.type.journal_volume
+  module:
+    - double_field
+id: node.journal_volume.authors_full_name
+field_name: authors_full_name
+entity_type: node
+bundle: journal_volume
+label: authors-full-name
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  first:
+    label: ''
+    list: false
+    allowed_values: {  }
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+  second:
+    label: ''
+    list: false
+    allowed_values: {  }
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+field_type: double_field

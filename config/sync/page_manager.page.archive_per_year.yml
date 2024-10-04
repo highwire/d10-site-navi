@@ -1,0 +1,14 @@
+uuid: 0d55c77f-d0a4-424b-a235-6bb83b3a0eac
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: VdLInnjQri5YQFIE_ivuipY92XptTFrEG5oOfFOIw5A
+id: archive_per_year
+label: 'Archive per Year'
+description: ''
+use_admin_theme: false
+path: '/content/by/year/{year}'
+access_logic: and
+access_conditions: {  }
+parameters: {  }

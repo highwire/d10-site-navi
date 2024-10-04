@@ -1,0 +1,19 @@
+uuid: f44b507f-b6a3-42db-8a2e-efd7b94c3186
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tUKvVAOmS_-8flMFkrS34rBnG7FZxskQxB1XDOlgMww
+id: jcorex_zotero
+label: 'Jcorex Zotero'
+configurations:
+  -
+    markup_profile: jcorex_zotero
+    access_rule: ''
+    field_group_settings:
+      field_group_formatter: '0'
+    weight: '1'
+markup_field_enabled: false
+markup_field_content_types: {  }
+log: false
+render_placeholder: false
