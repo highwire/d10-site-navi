@@ -2,106 +2,64 @@ _core:
   default_config_hash: 12cUBEGixXIGW6ewF97eTBAIpi-OmivzUDPk8Ie3-is
 blocks:
   -
-    info: umbrellamenu_image
+    info: 'ISSN 2161-4296'
     langcode: en
-    uuid: 46ee4385-a166-4c48-a692-23909df2cc94
+    uuid: ef6c6c40-29ec-42a9-8cc9-7b66287d3a10
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p>Metrics shown below are collected from this platform only.</p>'
+          summary: ''
+          format: basic_html
+  -
+    info: 'For an alternate route'
+    langcode: en
+    uuid: 962ed298-cdcf-4b4c-8cca-42d60354d84d
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<div class="text-align-center">For an alternate route to this Journal use this URL: <a href="https://navi.ion.org/">navi.ion.org</a>&nbsp;<br>To access NAVIGATION issues prior to 2021, <a href="https://www.ion.org/publications/browse.cfm">visit the ION website</a>.</div>'
+          summary: ''
+          format: full_html
+  -
+    info: 'NAVIGATION: Journal of the Institute of Navigation'
+    langcode: en
+    uuid: 76e6b1a8-a3ef-4abf-bd86-a36aeb415946
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p><em>NAVIGATION: Journal of the Institute of Navigation</em> is a quarterly electronic journal published by the <a href="https://www.ion.org">Institute of Navigation (ION)</a>. The journal publishes original, peer-reviewed papers in an open-access (OA) environment in all areas related to the art, science, and engineering of positioning, navigation, and timing (PNT) covering land (including indoor use), sea, air, and space applications.</p><p>PNT technologies of interest encompass navigation satellite systems (both global and regional), inertial navigation, electro-optical systems including lidar and imaging sensors, and radio-frequency ranging and timing systems, including those using signals of opportunity from communication systems and other non-traditional PNT sources. Papers about PNT algorithms and methods, such as error characterization and mitigation, integrity analysis, PNT signal processing, and multi-sensor integration are welcome. The journal also accepts papers on non-traditional applications of PNT systems, including remote sensing of the Earth’s surface or atmosphere, as well as selected historical and survey articles.</p><p><em>NAVIGATION</em> is read by engineers, professional navigators, astronomers, cartographers, photogrammetrists, meteorologists, physicists, educators, geodesists, surveyors, general aviation and airline pilots, mariners, yachtsmen, corporations, civil and military government agencies, private scientific and technical institutions, universities and training academies, consulting firms, patent/trademark attorneys, and anyone else interested in position-determining systems.</p><p>As of 2023&nbsp;<em>NAVIGATION </em>has a 3.1&nbsp;Journal Impact Factor (JIF), ranking <em>NAVIGATION </em>in the top ten academic journals in its class.</p>'
+          summary: ''
+          format: basic_html
+  -
+    info: 'Right Header logo'
+    langcode: en
+    uuid: 0cd4b1ee-a6ea-4c05-b945-e37faa1e7032
     bundle: image_block
     revision_id: null
     rev_id_current: null
     fields:
       field_image:
         -
-          target_id: '674'
-          alt: header_logo
+          target_id: '152'
+          alt: Logo
           title: ''
-          width: '96'
-          height: '39'
+          width: '120'
+          height: '46'
       field_url:
         -
           uri: 'internal:/'
           title: ''
           options: {  }
-  -
-    info: 'Powered by Highwire'
-    langcode: en
-    uuid: bb4081a4-0915-4aa6-ba2e-8b04e969a612
-    bundle: image_block
-    revision_id: null
-    rev_id_current: null
-    fields:
-      field_image:
-        -
-          target_id: '676'
-          alt: 'Powered by Highwire'
-          title: ''
-          width: '190'
-          height: '31'
-      field_url: {  }
-  -
-    info: 'About Journal Section'
-    langcode: en
-    uuid: a60dcac5-a904-4f62-bc50-023efeed4036
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: "<p><img alt=\"Logo\" data-entity-type=\"file\" data-entity-uuid=\"03244241-f1f9-4a4c-9c5a-b55410f8e93a\" height=\"169\" src=\"/sites/default/files/inline-images/home-banner.jpg\" width=\"723\" /></p>\r\n\r\n<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Hello</p>\r\n"
-          summary: ''
-          format: full_html
-  -
-    info: 'All Journals'
-    langcode: en
-    uuid: 398ce8d1-2443-4eae-b710-5a3d9d25d57a
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>\r\n"
-          summary: ''
-          format: basic_html
-  -
-    info: Copyright
-    langcode: en
-    uuid: 9431861c-4df0-4ea7-a951-a1917dbc1a8c
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p><a href="https://www.cmaj.ca/copyright">Copyright 2024</a>, NAVI Impact Inc.&nbsp;or its licensors.&nbsp;All rights reserved. ISSN 1488-2329 (e) 0820-3946 (p)</p><p>All editorial matter in NAVI represents the opinions of the authors and not necessarily those of the Canadian Medical Association or its subsidiaries.</p><p>To receive any of these resources&nbsp;in an accessible format, please contact us at NAVI Group, 500-1410 Blair Towers Place, Ottawa ON, K1J 9B9; p: 1-888-855-2555;&nbsp;</p><p>NAVI &nbsp;<a href="https://www.cma.ca/terms-and-conditions#civility">Civility</a>, <a href="https://www.cma.ca/accessibility">Accessibility</a>, <a href="https://www.cma.ca/privacy-policies-cma-and-its-subsidiaries">Privacy</a></p>'
-          summary: ''
-          format: basic_html
-  -
-    info: 'Footer Social icon'
-    langcode: en
-    uuid: 5e70a744-8b8a-4176-a1ff-a0cd3da8e401
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: "<div class=\"flex flex-wrap\">\r\n<div class=\"flex-grow w-full social-share\"><a class=\"twitter\" href=\"https://twitter.com/bpsofficial\" title=\"Follow BPS Publishing on Twitter\"><svg height=\"21px\" version=\"1.1\" viewbox=\"0 0 22 21\" width=\"22px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n<title></title>\r\n<g fill=\"none\" fill-rule=\"evenodd\" id=\"Symbols\" stroke=\"none\" stroke-width=\"1\"><g id=\"twitter\"><rect height=\"20.38\" id=\"Rectangle\" width=\"22\" x=\"0\" y=\"0\"></rect><path d=\"M22,3.11658333 C21.1905833,3.47591667 20.3206667,3.71791667 19.4076667,3.827 C20.3399167,3.26875 21.0558333,2.38416667 21.39225,1.33 C20.5205,1.847 19.5543333,2.22283333 18.5258333,2.42541667 C17.7035833,1.54816667 16.5293333,1 15.2313333,1 C12.31725,1 10.1759167,3.71883333 10.8340833,6.54125 C7.084,6.35333333 3.75833333,4.55666667 1.53175,1.82591667 C0.34925,3.8545 0.9185,6.50825 2.92783333,7.85208333 C2.189,7.82825 1.49233333,7.62566667 0.884583333,7.28741667 C0.835083333,9.37833333 2.33383333,11.3345 4.5045,11.7699167 C3.86925,11.94225 3.1735,11.9825833 2.46583333,11.8469167 C3.03966667,13.6399167 4.70616667,14.9443333 6.6825,14.981 C4.785,16.46875 2.39433333,17.1333333 0,16.851 C1.99741667,18.1315833 4.37066667,18.8786667 6.919,18.8786667 C15.2991667,18.8786667 20.03375,11.8010833 19.74775,5.45316667 C20.6295833,4.81608333 21.395,4.02133333 22,3.11658333 Z\" fill=\"#FFFFFF\" fill-rule=\"nonzero\" id=\"Combined-Shape-Copy\"></path></g></g></svg></a><a class=\"facebook\" href=\"https://www.facebook.com/OfficialBPS/\" title=\"Follow BPS Publishing on Facebook\"><svg height=\"21px\" version=\"1.1\" viewbox=\"0 0 22 21\" width=\"22px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n<title></title>\r\n<g fill=\"none\" fill-rule=\"evenodd\" id=\"Symbols\" stroke=\"none\" stroke-width=\"1\"><g id=\"fb\"><rect height=\"20.38\" id=\"Rectangle-Copy-6\" width=\"22\" x=\"0\" y=\"0\"></rect><path d=\"M9.128,20.375 L9.128,11.081 L6,11.081 L6,7.459 L9.128,7.459 L9.128,4.788 C9.128,1.688 11.021,0 13.787,0 C15.112,0 16.25,0.099 16.582,0.143 L16.582,3.383 L14.664,3.384 C13.16,3.384 12.869,4.099 12.869,5.147 L12.869,7.46 L16.456,7.46 L15.989,11.082 L12.869,11.082 L12.869,20.375 L9.128,20.375 Z\" fill=\"#FFFFFF\" fill-rule=\"nonzero\" id=\"Path-Copy\"></path></g></g></svg></a> <a class=\"youtube\" href=\"https://www.youtube.com/user/bpsmediacentre\" title=\"Follow BPS Publishing on YouTube\"><svg height=\"21px\" version=\"1.1\" viewbox=\"0 0 22 21\" width=\"22px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n<title></title>\r\n<g fill=\"none\" fill-rule=\"evenodd\" id=\"Symbols\" stroke=\"none\" stroke-width=\"1\"><g id=\"yt\"><rect height=\"20.38\" id=\"Rectangle-Copy-8\" width=\"22\" x=\"0\" y=\"0\"></rect><polygon fill=\"#FFFFFF\" fill-rule=\"nonzero\" id=\"Path-Copy\" points=\"3 18 3 2 19 9.986 3 18\"></polygon></g></g></svg></a> <a class=\"linkedin\" href=\"https://www.linkedin.com/company/british-psychological-society/\" title=\"Follow BPS Publishing on LinkedIn\"><svg height=\"21px\" version=\"1.1\" viewbox=\"0 0 22 21\" width=\"22px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n<title></title>\r\n<g fill=\"none\" fill-rule=\"evenodd\" id=\"Symbols\" stroke=\"none\" stroke-width=\"1\"><g id=\"li\"><rect height=\"20.38\" id=\"Rectangle-Copy-7\" width=\"22\" x=\"0\" y=\"0\"></rect><path d=\"M5.83606557,6.66085246 L5.83606557,19.644459 L2.29508197,19.644459 L2.29508197,6.66085246 L5.83606557,6.66085246 Z M11.7377049,6.66085246 L11.7377049,8.74413115 C13.3854426,5.69180328 20,5.46636066 20,11.666623 L20,19.644459 L16.4590164,19.644459 L16.4590164,13.0299016 C16.4590164,9.05455738 11.7377049,9.35554098 11.7377049,13.0299016 L11.7377049,19.644459 L8.19672131,19.644459 L8.19672131,6.66085246 L11.7377049,6.66085246 Z M4.06557377,1 C5.20577049,1 6.13114754,1.93245902 6.13114754,3.08209836 C6.13114754,4.2317377 5.20695082,5.16419672 4.06557377,5.16419672 C2.92537705,5.16419672 2,4.2317377 2,3.08209836 C2,1.93245902 2.92537705,1 4.06557377,1 Z\" fill=\"#FFFFFF\" fill-rule=\"nonzero\" id=\"Combined-Shape-Copy\"></path></g></g></svg></a></div>\r\n</div>\r\n"
-          summary: ''
-          format: full_html
-  -
-    info: 'Footer branding svg'
-    langcode: en
-    uuid: 12ba5af4-b66d-433f-a62e-6188e249aaa4
-    bundle: basic
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<img data-entity-uuid="9201bbb3-454d-499a-bbe1-b5de71c66f64" data-entity-type="file" src="/sites/default/files/inline-images/demoPT-logo2_2_0.png" alt="Logo">'
-          summary: ''
-          format: full_html
   -
     info: 'Left Header logo'
     langcode: en
@@ -123,20 +81,105 @@ blocks:
           title: ''
           options: {  }
   -
-    info: 'Right Header logo'
+    info: 'Footer branding svg'
     langcode: en
-    uuid: 0cd4b1ee-a6ea-4c05-b945-e37faa1e7032
+    uuid: 12ba5af4-b66d-433f-a62e-6188e249aaa4
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<img data-entity-uuid="9201bbb3-454d-499a-bbe1-b5de71c66f64" data-entity-type="file" src="/sites/default/files/inline-images/demoPT-logo2_2_0.png" alt="Logo">'
+          summary: ''
+          format: full_html
+  -
+    info: 'Footer Social icon'
+    langcode: en
+    uuid: 5e70a744-8b8a-4176-a1ff-a0cd3da8e401
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div class=\"flex flex-wrap\">\r\n<div class=\"flex-grow w-full social-share\"><a class=\"twitter\" href=\"https://twitter.com/bpsofficial\" title=\"Follow BPS Publishing on Twitter\"><svg height=\"21px\" version=\"1.1\" viewbox=\"0 0 22 21\" width=\"22px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n<title></title>\r\n<g fill=\"none\" fill-rule=\"evenodd\" id=\"Symbols\" stroke=\"none\" stroke-width=\"1\"><g id=\"twitter\"><rect height=\"20.38\" id=\"Rectangle\" width=\"22\" x=\"0\" y=\"0\"></rect><path d=\"M22,3.11658333 C21.1905833,3.47591667 20.3206667,3.71791667 19.4076667,3.827 C20.3399167,3.26875 21.0558333,2.38416667 21.39225,1.33 C20.5205,1.847 19.5543333,2.22283333 18.5258333,2.42541667 C17.7035833,1.54816667 16.5293333,1 15.2313333,1 C12.31725,1 10.1759167,3.71883333 10.8340833,6.54125 C7.084,6.35333333 3.75833333,4.55666667 1.53175,1.82591667 C0.34925,3.8545 0.9185,6.50825 2.92783333,7.85208333 C2.189,7.82825 1.49233333,7.62566667 0.884583333,7.28741667 C0.835083333,9.37833333 2.33383333,11.3345 4.5045,11.7699167 C3.86925,11.94225 3.1735,11.9825833 2.46583333,11.8469167 C3.03966667,13.6399167 4.70616667,14.9443333 6.6825,14.981 C4.785,16.46875 2.39433333,17.1333333 0,16.851 C1.99741667,18.1315833 4.37066667,18.8786667 6.919,18.8786667 C15.2991667,18.8786667 20.03375,11.8010833 19.74775,5.45316667 C20.6295833,4.81608333 21.395,4.02133333 22,3.11658333 Z\" fill=\"#FFFFFF\" fill-rule=\"nonzero\" id=\"Combined-Shape-Copy\"></path></g></g></svg></a><a class=\"facebook\" href=\"https://www.facebook.com/OfficialBPS/\" title=\"Follow BPS Publishing on Facebook\"><svg height=\"21px\" version=\"1.1\" viewbox=\"0 0 22 21\" width=\"22px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n<title></title>\r\n<g fill=\"none\" fill-rule=\"evenodd\" id=\"Symbols\" stroke=\"none\" stroke-width=\"1\"><g id=\"fb\"><rect height=\"20.38\" id=\"Rectangle-Copy-6\" width=\"22\" x=\"0\" y=\"0\"></rect><path d=\"M9.128,20.375 L9.128,11.081 L6,11.081 L6,7.459 L9.128,7.459 L9.128,4.788 C9.128,1.688 11.021,0 13.787,0 C15.112,0 16.25,0.099 16.582,0.143 L16.582,3.383 L14.664,3.384 C13.16,3.384 12.869,4.099 12.869,5.147 L12.869,7.46 L16.456,7.46 L15.989,11.082 L12.869,11.082 L12.869,20.375 L9.128,20.375 Z\" fill=\"#FFFFFF\" fill-rule=\"nonzero\" id=\"Path-Copy\"></path></g></g></svg></a> <a class=\"youtube\" href=\"https://www.youtube.com/user/bpsmediacentre\" title=\"Follow BPS Publishing on YouTube\"><svg height=\"21px\" version=\"1.1\" viewbox=\"0 0 22 21\" width=\"22px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n<title></title>\r\n<g fill=\"none\" fill-rule=\"evenodd\" id=\"Symbols\" stroke=\"none\" stroke-width=\"1\"><g id=\"yt\"><rect height=\"20.38\" id=\"Rectangle-Copy-8\" width=\"22\" x=\"0\" y=\"0\"></rect><polygon fill=\"#FFFFFF\" fill-rule=\"nonzero\" id=\"Path-Copy\" points=\"3 18 3 2 19 9.986 3 18\"></polygon></g></g></svg></a> <a class=\"linkedin\" href=\"https://www.linkedin.com/company/british-psychological-society/\" title=\"Follow BPS Publishing on LinkedIn\"><svg height=\"21px\" version=\"1.1\" viewbox=\"0 0 22 21\" width=\"22px\" xmlns=\"http://www.w3.org/2000/svg\">\r\n<title></title>\r\n<g fill=\"none\" fill-rule=\"evenodd\" id=\"Symbols\" stroke=\"none\" stroke-width=\"1\"><g id=\"li\"><rect height=\"20.38\" id=\"Rectangle-Copy-7\" width=\"22\" x=\"0\" y=\"0\"></rect><path d=\"M5.83606557,6.66085246 L5.83606557,19.644459 L2.29508197,19.644459 L2.29508197,6.66085246 L5.83606557,6.66085246 Z M11.7377049,6.66085246 L11.7377049,8.74413115 C13.3854426,5.69180328 20,5.46636066 20,11.666623 L20,19.644459 L16.4590164,19.644459 L16.4590164,13.0299016 C16.4590164,9.05455738 11.7377049,9.35554098 11.7377049,13.0299016 L11.7377049,19.644459 L8.19672131,19.644459 L8.19672131,6.66085246 L11.7377049,6.66085246 Z M4.06557377,1 C5.20577049,1 6.13114754,1.93245902 6.13114754,3.08209836 C6.13114754,4.2317377 5.20695082,5.16419672 4.06557377,5.16419672 C2.92537705,5.16419672 2,4.2317377 2,3.08209836 C2,1.93245902 2.92537705,1 4.06557377,1 Z\" fill=\"#FFFFFF\" fill-rule=\"nonzero\" id=\"Combined-Shape-Copy\"></path></g></g></svg></a></div>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: Copyright
+    langcode: en
+    uuid: 9431861c-4df0-4ea7-a951-a1917dbc1a8c
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p>Unless otherwise noted, <em>NAVIGATION </em>content is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC BY 4.0 License</a>.</p><p>© 2024 The Institute of Navigation, Inc.</p>'
+          summary: ''
+          format: basic_html
+  -
+    info: 'All Journals'
+    langcode: en
+    uuid: 398ce8d1-2443-4eae-b710-5a3d9d25d57a
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 'About Journal Section'
+    langcode: en
+    uuid: a60dcac5-a904-4f62-bc50-023efeed4036
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p><img alt=\"Logo\" data-entity-type=\"file\" data-entity-uuid=\"03244241-f1f9-4a4c-9c5a-b55410f8e93a\" height=\"169\" src=\"/sites/default/files/inline-images/home-banner.jpg\" width=\"723\" /></p>\r\n\r\n<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Hello</p>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Powered by Highwire'
+    langcode: en
+    uuid: bb4081a4-0915-4aa6-ba2e-8b04e969a612
     bundle: image_block
     revision_id: null
     rev_id_current: null
     fields:
       field_image:
         -
-          target_id: '152'
-          alt: Logo
+          target_id: '8882'
+          alt: 'Powered by Highwire'
           title: ''
-          width: '120'
-          height: '46'
+          width: '190'
+          height: '31'
+      field_url:
+        -
+          uri: 'https://www.highwirepress.com/'
+          title: ''
+          options: {  }
+  -
+    info: umbrellamenu_image
+    langcode: en
+    uuid: 46ee4385-a166-4c48-a692-23909df2cc94
+    bundle: image_block
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_image:
+        -
+          target_id: '8873'
+          alt: header_logo
+          title: ''
+          width: '96'
+          height: '39'
       field_url:
         -
           uri: 'internal:/'

@@ -5,7 +5,12 @@ dependencies:
   config:
     - page_manager.page.homepage
     - views.view.current_issue
+  content:
+    - 'block_content:basic:76e6b1a8-a3ef-4abf-bd86-a36aeb415946'
+    - 'block_content:basic:962ed298-cdcf-4b4c-8cca-42d60354d84d'
+    - 'block_content:basic:ef6c6c40-29ec-42a9-8cc9-7b66287d3a10'
   module:
+    - block_content
     - highwire_top_topics
     - jnl_core
     - journal_article_detail
@@ -61,7 +66,7 @@ variant_settings:
       provider: journal_article_detail
       context_mapping: {  }
       region: right
-      weight: -2
+      weight: -3
       uuid: 66c133eb-8897-413a-a49f-56197d807a9f
     c8de770e-3b66-4406-b59a-4be97e69c32c:
       id: jnl_core_backtotop
@@ -70,8 +75,44 @@ variant_settings:
       provider: jnl_core
       context_mapping: {  }
       region: bottom
-      weight: -2
+      weight: -1
       uuid: c8de770e-3b66-4406-b59a-4be97e69c32c
+    07e72afd-eb26-45e6-95d8-0925e3a96f77:
+      id: 'block_content:76e6b1a8-a3ef-4abf-bd86-a36aeb415946'
+      label: 'NAVIGATION: Journal of the Institute of Navigation'
+      label_display: visible
+      provider: block_content
+      status: true
+      info: ''
+      view_mode: full
+      context_mapping: {  }
+      region: left
+      weight: 0
+      uuid: 07e72afd-eb26-45e6-95d8-0925e3a96f77
+    a6943f66-f7c2-4a42-a5e7-79cfee44721d:
+      id: 'block_content:962ed298-cdcf-4b4c-8cca-42d60354d84d'
+      label: 'For an alternate route'
+      label_display: '0'
+      provider: block_content
+      status: true
+      info: ''
+      view_mode: full
+      context_mapping: {  }
+      region: bottom
+      weight: -2
+      uuid: a6943f66-f7c2-4a42-a5e7-79cfee44721d
+    57b1cef7-4cc8-4846-82ec-faf8ffb343de:
+      id: 'block_content:ef6c6c40-29ec-42a9-8cc9-7b66287d3a10'
+      label: 'ISSN 2161-4296'
+      label_display: visible
+      provider: block_content
+      status: true
+      info: ''
+      view_mode: full
+      context_mapping: {  }
+      region: right
+      weight: -2
+      uuid: 57b1cef7-4cc8-4846-82ec-faf8ffb343de
   page_title: Homepage
   layout: bs_2col_stacked
   layout_settings:

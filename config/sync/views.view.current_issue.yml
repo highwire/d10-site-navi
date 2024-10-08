@@ -302,7 +302,7 @@ display:
           plugin_id: text
           empty: false
           content:
-            value: "<div class=\"show-more\">\r\n<a href=\"/content/current\" class=\"\" title=\"\">More<span class=\"font-stack show-more-icon\"></span></a>\r\n</div>"
+            value: "<div class=\"show-more\">\r\n<a href=\"/content/current\" class=\"\" title=\"\">View more<span class=\"font-stack show-more-icon\"></span></a>\r\n</div>"
             format: basic_html
           tokenize: false
       display_extenders: {  }
