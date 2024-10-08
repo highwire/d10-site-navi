@@ -1,6 +1,6 @@
 uuid: 0e85a352-24c1-45f3-b408-d235c494ca3d
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.legal
