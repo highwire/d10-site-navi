@@ -23,24 +23,6 @@ variant_settings:
   weight: 0
   uuid: 61258e05-3ba6-4019-be28-bc2b42b2717d
   blocks:
-    0fdb5303-3cef-486d-aff0-493a606dbf6f:
-      id: jnl_altmetrics_data
-      label: 'Altmetrics Data'
-      label_display: '0'
-      provider: journal_article_detail
-      context_mapping: {  }
-      region: right
-      weight: 0
-      uuid: 0fdb5303-3cef-486d-aff0-493a606dbf6f
-      description: 'Altmetric tracks attention and engagement of scholarly articles.'
-      month: 6m
-      issns: 1488-2329
-      number_per_page: '5'
-      api_url: 'https://api.altmetric.com/v1/citations/'
-      show_pager: 0
-      more_link: 1
-      more_link_label: 'See more'
-      msg_no_data: 'No Altmetric data available.'
     5bd05b16-774b-46d5-8592-b3e2c41a95aa:
       id: 'views_block:current_issue-block_1'
       label: ''
@@ -65,7 +47,7 @@ variant_settings:
       top_topics_title: ''
       most_read: 1
       most_read_title: ''
-      most_cited: 1
+      most_cited: 0
       most_cited_title: ''
       eletter_articles: 0
       eletter_articles_title: ''
