@@ -187,6 +187,18 @@ blocks:
           options: {  }
 menus:
   -
+    menu_name: account
+    title: 'My alerts'
+    parent: null
+    uri: 'internal:/alerts'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: b8621aa4-2dd3-471d-ac2c-6b8be5196a1c
+  -
     menu_name: main
     title: Information
     parent: null
