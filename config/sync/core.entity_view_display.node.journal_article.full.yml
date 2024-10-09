@@ -175,7 +175,6 @@ third_party_settings:
         - group_article
         - group_figures_tables
         - group_metrics
-        - group_response
       label: 'Article Tabs'
       parent_name: group_outer
       region: content
@@ -223,41 +222,41 @@ third_party_settings:
     group_figures_tables:
       children:
         - hwmd_figures_tables_article_
-      label: 'Figures & Tables'
+      label: 'Figures & Data'
       parent_name: group_article_tabs
       region: content
       weight: 22
       format_type: highwire_tab
       format_settings:
+        description: ''
+        formatter: closed
+        active: '1'
         id: ''
         classes: 'tab-content article__tabcontent-body'
-        description: ''
-        active: 1
-        formatter: closed
+        show_empty_fields: 0
     group_metrics:
       children:
         - jnl_info_metrics_tab
         - hwmd_contributors
-        - jnl_altmetrics
-        - jnl_usage_stats
-      label: Metrics
+      label: 'Info & Metrics'
       parent_name: group_article_tabs
       region: content
       weight: 23
       format_type: highwire_tab
       format_settings:
+        description: ''
+        formatter: closed
         id: ''
         classes: ''
-        description: ''
+        show_empty_fields: 0
         active: 0
-        formatter: closed
     group_response:
       children:
         - article_response_tab
       label: Response
-      parent_name: group_article_tabs
-      region: content
-      weight: 24
+      parent_name: ''
+      region: hidden
+      weight: 135
       format_type: highwire_tab
       format_settings:
         description: ''
@@ -292,11 +291,6 @@ targetEntityType: node
 bundle: journal_article
 mode: full
 content:
-  article_response_tab:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
-    region: content
   download_article_pdf:
     settings: {  }
     third_party_settings: {  }
@@ -330,20 +324,10 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
-  jnl_altmetrics:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 58
-    region: content
   jnl_info_metrics_tab:
     settings: {  }
     third_party_settings: {  }
     weight: 56
-    region: content
-  jnl_usage_stats:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 59
     region: content
   prevnext_toc_pager:
     settings: {  }
@@ -356,6 +340,7 @@ hidden:
   adjuncts: true
   apath: true
   article_open_access: true
+  article_response_tab: true
   article_series_title: true
   article_type: true
   atom_id: true
@@ -425,7 +410,9 @@ hidden:
   issue_supplemental: true
   issue_title: true
   issue_toc: true
+  jnl_altmetrics: true
   jnl_focus_view: true
+  jnl_usage_stats: true
   journal_abbrv_title: true
   journal_current_issue: true
   journal_eissn: true
