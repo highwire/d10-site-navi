@@ -136,10 +136,10 @@ bundle: journal_article
 mode: default
 content:
   links:
-    settings: {  }
-    third_party_settings: {  }
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   abstract_type: true
   addtoany: true
