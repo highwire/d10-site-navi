@@ -133,8 +133,8 @@ dependencies:
     - user
 third_party_settings:
   layout_builder:
-    enabled: false
     allow_custom: false
+    enabled: false
 _core:
   default_config_hash: 6B3vJtVD6rZoU2dNAYDX6h7E0_4Cu4QwqbGTe6P7cWQ
 id: node.journal_article.search_short_description
@@ -144,16 +144,16 @@ mode: search_short_description
 content:
   hwmd_abstract_search_index_:
     type: hwmarkup_display_formatter
+    weight: 1
+    region: content
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 1
-    region: content
   links:
-    settings: {  }
-    third_party_settings: {  }
     weight: 0
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   abstract_type: true
   addtoany: true
