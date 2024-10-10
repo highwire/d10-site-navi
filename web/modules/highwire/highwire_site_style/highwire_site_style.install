@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_update()
+ *
+ * JCOREX-579: Enable admin toolbar links access filter module.
+ */
+function highwire_site_style_update_9001(){
+  /* For Admin toolbar links access filte module */
+  $at_links_access_filter = \Drupal::service('module_installer')->install(['admin_toolbar_links_access_filter'], TRUE);
+  if (!$at_links_access_filter) {
+	  throw new DrupalUpdateException('Admin toolbar links access filter module are not enabled.');
+  }
+}
