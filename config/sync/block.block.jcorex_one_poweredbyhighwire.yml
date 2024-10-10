@@ -1,0 +1,23 @@
+uuid: fad6c18d-011b-4660-9b4b-8f1e1c430d5f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - jcorex_one
+_core:
+  default_config_hash: ZlC9vIpmJoDE2G7bCYhaoUN1vvcS0P56VbBUu6bqS1o
+id: jcorex_one_poweredbyhighwire
+theme: jcorex_one
+region: footer_bottom
+weight: -8
+provider: null
+plugin: 'block_content:bb4081a4-0915-4aa6-ba2e-8b04e969a612'
+settings:
+  id: 'block_content:bb4081a4-0915-4aa6-ba2e-8b04e969a612'
+  label: 'Powered by Highwire'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

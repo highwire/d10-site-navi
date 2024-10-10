@@ -1,0 +1,10 @@
+uuid: 1e038bef-9631-49a5-b3ea-f72b5595f500
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WzbI8IqrZ7eMU6326qFF6hbcr_pKmgCC0wXNb9q_lfY
+id: image_block
+label: 'Image block'
+revision: 0
+description: ''

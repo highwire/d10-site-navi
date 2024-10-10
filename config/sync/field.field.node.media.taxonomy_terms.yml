@@ -1,0 +1,21 @@
+uuid: 9c4490dc-ba2f-4a5b-b2a0-bc39b5aa0af6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.taxonomy_terms
+    - node.type.media
+id: node.media.taxonomy_terms
+field_name: taxonomy_terms
+entity_type: node
+bundle: media
+label: taxonomy-terms
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

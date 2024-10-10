@@ -1,0 +1,27 @@
+uuid: 45fdfe3b-0695-45da-bcf7-3c48e8f65116
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: uGJY1KKQkId91fSZYXNMkbmQmkOdgo3NG7cPHqws5dE
+id: top_topics
+label: 'Top Topics'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'highwire:node'
+  handler_settings:
+    target_bundles:
+      journal_article: journal_article
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 10
+  act_as_queue: false
+  reverse: false

@@ -1,0 +1,14 @@
+uuid: 9514863c-ec0e-4ba1-b4f5-b125dd582e95
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Pz-zV484G8DJZS5Lgej5ixMPcQzqd7QQGhs-G9iYDEM
+id: top_topics
+label: 'Top Topics'
+description: ''
+use_admin_theme: false
+path: /top_topics
+access_logic: and
+access_conditions: {  }
+parameters: {  }

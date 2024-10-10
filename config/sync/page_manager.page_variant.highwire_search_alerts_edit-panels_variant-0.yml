@@ -1,0 +1,91 @@
+uuid: cb0d3398-4509-4674-ac1f-79eb9fff03c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.highwire_search_alerts_edit
+  module:
+    - highwire_alerts
+    - panels
+_core:
+  default_config_hash: mu1rXcTbsjPeprhb3DrnA77i2zbvUQyKUQgFMRq8GbI
+id: highwire_search_alerts_edit-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    413646a3-2c12-4fc1-8084-23f59a0d6282:
+      id: page_title_block
+      label: 'Page title'
+      label_display: '0'
+      provider: core
+      context_mapping: {  }
+      region: top
+      weight: 0
+      uuid: 413646a3-2c12-4fc1-8084-23f59a0d6282
+    912571e4-4271-498a-ad77-4279fe8e86f0:
+      id: user_alerts_login_form
+      label: 'User ALerts Login Form'
+      label_display: '0'
+      provider: highwire_alerts
+      context_mapping: {  }
+      region: left
+      weight: 0
+      uuid: 912571e4-4271-498a-ad77-4279fe8e86f0
+    8ebf8c5d-e558-4e39-94d8-5f17e94e6f39:
+      id: highwire_edit_manage_keyword
+      label: 'Edit manage keyword alert'
+      label_display: '0'
+      provider: highwire_alerts
+      context_mapping: {  }
+      region: left
+      weight: 0
+      uuid: 8ebf8c5d-e558-4e39-94d8-5f17e94e6f39
+      site_code_manage_keyword: ''
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: 948352ee-31cf-4e66-aa82-4d6bd926dbbc
+  page_title: ''
+  layout: bs_2col_stacked
+  layout_settings:
+    label: ''
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 0
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          row: row
+        add_region_classes: 0
+        attributes: 'class|col-12 col-large-tablet-12'
+      left:
+        wrapper: div
+        classes:
+          row: row
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-7 col-large-tablet-8 layout__region--first'
+      right:
+        wrapper: div
+        classes:
+          row: row
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-5 col-large-tablet-4 layout__region--second'
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  builder: standard
+  storage_type: page_manager
+  storage_id: highwire_search_alerts_edit-panels_variant-0
+page: highwire_search_alerts_edit
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

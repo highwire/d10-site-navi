@@ -1,0 +1,14 @@
+uuid: 196c3751-1feb-4862-b17b-59d9ac0f45b5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MlTne95FrDnPcViwEAYu9pT0EI7SZo4bBuYQ6Zgj1Zw
+id: volume_archive
+label: 'Volume Archive'
+description: ''
+use_admin_theme: false
+path: /content/by/volume
+access_logic: and
+access_conditions: {  }
+parameters: {  }

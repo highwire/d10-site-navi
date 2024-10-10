@@ -1,0 +1,18 @@
+uuid: b64efd7d-a530-46a7-8071-359ae1568c6d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.version_current
+field_name: version_current
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

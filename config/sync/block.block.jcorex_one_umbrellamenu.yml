@@ -1,0 +1,27 @@
+uuid: 773d2e71-e36d-43d2-9c3d-ecfda5262fc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.umbrella-menu
+  module:
+    - system
+  theme:
+    - jcorex_one
+_core:
+  default_config_hash: yUQP9C65clKFujI7oaAzgeUfmP6qCA4nx1cBSUk7lvw
+id: jcorex_one_umbrellamenu
+theme: jcorex_one
+region: header_top_section
+weight: -9
+provider: null
+plugin: 'system_menu_block:umbrella-menu'
+settings:
+  id: 'system_menu_block:umbrella-menu'
+  label: 'Umbrella menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

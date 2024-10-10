@@ -1,0 +1,122 @@
+uuid: b795eccf-cf13-4c09-bbd8-447cacaf6729
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.archive_per_volume
+  module:
+    - jnl_core
+    - jnl_search
+    - journal_article_detail
+    - panels
+_core:
+  default_config_hash: LVOhyg7H7QDwr6gpoNdPFrAkn2jnmid8vWyUzqRd8js
+id: archive_per_volume-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    4354a981-e369-4179-ad48-14c4c9e3e4b8:
+      id: jnl_archive_filter
+      label: 'Archive Filter Section'
+      label_display: '0'
+      provider: journal_article_detail
+      context_mapping: {  }
+      region: left
+      weight: -10
+      uuid: 4354a981-e369-4179-ad48-14c4c9e3e4b8
+      browse_by: Volume
+      sort_by: date_ppub
+      order: DESC
+    9cce1b8b-e184-4669-9188-be6430266f87:
+      id: jnl_current_issue
+      label: 'Current Issue'
+      label_display: '0'
+      provider: journal_article_detail
+      context_mapping: {  }
+      region: right
+      weight: -2
+      uuid: 9cce1b8b-e184-4669-9188-be6430266f87
+    e7db09e0-2a26-4e31-aedc-02b408b9cdb0:
+      id: page_title_block
+      label: 'Page title'
+      label_display: '0'
+      provider: core
+      context_mapping: {  }
+      region: top
+      weight: 0
+      uuid: e7db09e0-2a26-4e31-aedc-02b408b9cdb0
+    c1f5d399-f7bb-4f94-9224-1cfc6ba87588:
+      id: jnl_core_backtotop
+      label: 'Back to top'
+      label_display: '0'
+      provider: jnl_core
+      context_mapping: {  }
+      region: bottom
+      weight: -1
+      uuid: c1f5d399-f7bb-4f94-9224-1cfc6ba87588
+    dcdb8a5d-ae5b-44e8-a195-0f2e91ea6940:
+      id: searchBrowse
+      label: 'Search browse block'
+      label_display: '0'
+      provider: jnl_search
+      context_mapping: {  }
+      region: right
+      weight: -1
+      uuid: dcdb8a5d-ae5b-44e8-a195-0f2e91ea6940
+    dabd5d3f-60c1-4211-b4c3-f5df3ef02d3d:
+      id: ArchiveRefineBlock
+      label: 'NAVIGATE TO'
+      label_display: visible
+      provider: journal_article_detail
+      context_mapping: {  }
+      region: right
+      weight: 0
+      uuid: dabd5d3f-60c1-4211-b4c3-f5df3ef02d3d
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: d5ab4722-a2c7-46f0-9e4f-5cabd8c09cac
+  page_title: 'Archive of all online content'
+  layout: bs_2col_stacked
+  layout_settings:
+    label: ''
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 0
+        attributes: 'class|col-12 col-large-tablet-12'
+      left:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-7 col-large-tablet-8 layout__region--first'
+      right:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-5 col-large-tablet-4 layout__region--second article__rightbar'
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  builder: standard
+  storage_type: page_manager
+  storage_id: archive_per_volume-panels_variant-0
+page: archive_per_volume
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

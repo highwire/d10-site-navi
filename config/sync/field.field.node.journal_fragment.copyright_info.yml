@@ -1,0 +1,22 @@
+uuid: c7039a6a-4739-48a3-be09-0392a0274327
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.copyright_info
+    - node.type.journal_fragment
+  module:
+    - text
+id: node.journal_fragment.copyright_info
+field_name: copyright_info
+entity_type: node
+bundle: journal_fragment
+label: copyright-info
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

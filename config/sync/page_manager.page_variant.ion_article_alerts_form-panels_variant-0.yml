@@ -1,0 +1,90 @@
+uuid: c5d3fb77-8675-4447-af89-e583b535ba4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.ion_article_alerts_form
+  module:
+    - highwire_alerts
+    - panels
+_core:
+  default_config_hash: lBsjgdN_jZWvdRdBoaw4OhsyxUjRI2Y-llceApXpW8U
+id: ion_article_alerts_form-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    09dacdbf-2b62-4195-9799-6e5acbc7d0b1:
+      id: page_title_block
+      label: 'Page title'
+      label_display: '0'
+      provider: core
+      context_mapping: {  }
+      region: top
+      weight: -10
+      uuid: 09dacdbf-2b62-4195-9799-6e5acbc7d0b1
+    a8c5dc35-0063-462b-8e94-b4c80385f0ec:
+      id: highwire_manage_citation
+      label: 'Highwire Manage Citation'
+      label_display: '0'
+      provider: highwire_alerts
+      context_mapping: {  }
+      region: left
+      weight: -1
+      uuid: a8c5dc35-0063-462b-8e94-b4c80385f0ec
+    163f97ff-a718-4edf-be07-19eb91695582:
+      id: user_alerts_login_form
+      label: 'User ALerts Login Form'
+      label_display: '0'
+      provider: highwire_alerts
+      context_mapping: {  }
+      region: left
+      weight: 0
+      uuid: 163f97ff-a718-4edf-be07-19eb91695582
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: 8dfb8632-e50f-4731-a9f0-1411291c66fa
+  page_title: 'Manage Citation Alerts'
+  layout: bs_2col_stacked
+  layout_settings:
+    label: ''
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 0
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          row: row
+        add_region_classes: 0
+        attributes: 'class|col-12 col-large-tablet-12'
+      left:
+        wrapper: div
+        classes:
+          row: row
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-7 col-large-tablet-8 layout__region--first'
+      right:
+        wrapper: div
+        classes:
+          row: row
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-5 col-large-tablet-4 layout__region--second'
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  builder: standard
+  storage_type: page_manager
+  storage_id: ion_article_alerts_form-panels_variant-0
+page: ion_article_alerts_form
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

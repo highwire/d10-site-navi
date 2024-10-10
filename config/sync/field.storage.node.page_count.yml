@@ -1,0 +1,19 @@
+uuid: 25c36e96-70dd-4224-8acc-15ddfcbedbde
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.page_count
+field_name: page_count
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

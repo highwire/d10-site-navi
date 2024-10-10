@@ -1,0 +1,15 @@
+uuid: c32b6bf0-3d18-42ee-ae15-1a57f86b539e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-ugkVprFcOLIu81O2dr9pxuEBIyIxZGe23aBkTrk0xE'
+title: 'Bookend Journal'
+id: bookend_journal
+export_plugin: bookend
+label: null
+format_type: markup
+citations_tokens: ''
+content_types: {  }
+content_type_prefix: ''
+citations_markup: jcorex_bookend

@@ -1,0 +1,12 @@
+uuid: 08bc67ce-d815-4654-875f-1bbf6a63642c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PwZcXNlR64A_Ht6cqEgATELTG2fx02SDut0g8kyIoFA
+id: jcorex_medlars
+label: 'Jcorex Medlars'
+profile_id: jcorex-medlars
+configuration: {  }
+dw_logging: null
+exists_field: ''

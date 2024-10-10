@@ -1,0 +1,12 @@
+uuid: 48710a03-004e-413c-b632-d1bfe8b140a5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Zw71GpVXs3n5T2QkPMdp5kJ3A-ycbzES9yRJcd5Fj-g
+id: jcorex_zotero
+label: 'Jcorex Zotero'
+profile_id: jcorex-zotero
+configuration: {  }
+dw_logging: null
+exists_field: ''

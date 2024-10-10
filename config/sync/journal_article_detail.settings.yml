@@ -1,0 +1,37 @@
+_core:
+  default_config_hash: 7vp7nHCuh4KA6y5AJc9hQGNbxeA5BlnpRykhj3xZojo
+default_view: LastSixMonths
+date_filters:
+  ArticleLifetime: ArticleLifetime
+  LastSixMonths: LastSixMonths
+  ThisMonth: ThisMonth
+  ViewRange: ViewRange
+display_settings: '0'
+metric_types:
+  abstract: abstract
+  full: full
+  pdf: pdf
+  source: source
+  total: 0
+override_title: 'Usage statistics'
+altmetric_statistics_tag: '<div data-badge-details="right" data-badge-type="medium-donut" [PUBCODE] data-hide-no-mentions="true" class="altmetric-embed"></div>'
+altmetric_override_title: 'Statistics from Altmetric.com'
+empty_text: 'No statistics are available.'
+default_source_name: Highwire
+display_grand_total: 1
+email_article_display: 1
+thanks_msg: '<p>Thank you for your interest in spreading the word on JNL.</p>'
+email_article_note: '<p>NOTE: We only request your email address so that the person you are recommending the page to knows that you wanted them to see it, and that it is not junk mail. We do not capture any email address.</p>'
+message_subject: '(Your Name) has sent you a message from JNL'
+message_body: '(Your Name) thought you would like to see the JNL web site.'
+thanks_msg_display: 1
+email_article_note_display: 1
+message_subject_display: 1
+message_body_display: 1
+default_x_axis_label: Date/Type
+default_y_axis_label: Views
+first_color_field: '#fef1b3'
+second_color_field: '#abdda4'
+third_color_field: '#ffa500'
+Fourth_color_field: '#f45140'
+fifth_color_field: '#2b83ba'

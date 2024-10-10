@@ -1,0 +1,12 @@
+uuid: c93d603e-97c3-492f-97ef-f75de2a44c81
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Qy94uCdU2L78Hv9Cy9iCc2GdCbHtGRexDM3vBKolI4I
+id: jcorex_bibtex
+label: 'Jcorex Bibtex'
+profile_id: jcorex-bibtex
+configuration: {  }
+dw_logging: null
+exists_field: ''

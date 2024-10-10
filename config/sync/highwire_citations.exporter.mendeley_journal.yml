@@ -1,0 +1,15 @@
+uuid: fbbe6de9-17d5-423b-a1eb-460308bef3d2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1NmBzcBtNn9akDD7rgQh_QmgKO6qQhoEn1SIoz7uwog
+title: 'Mendeley Journal'
+id: mendeley_journal
+export_plugin: mendeley
+label: null
+format_type: markup
+citations_tokens: ''
+content_types: {  }
+content_type_prefix: ''
+citations_markup: jcorex_mendeley

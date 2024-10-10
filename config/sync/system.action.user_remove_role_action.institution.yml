@@ -1,0 +1,14 @@
+uuid: 68b95c1a-ffb7-4ead-b1fd-55acdc3cbf7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.institution
+  module:
+    - user
+id: user_remove_role_action.institution
+label: 'Remove the HighWire User - Institution role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: institution

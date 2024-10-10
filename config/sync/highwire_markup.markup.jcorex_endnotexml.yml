@@ -1,0 +1,12 @@
+uuid: 2e878f67-949f-40ef-b11d-977db7b1736f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: iHerLcLT8fICP7zbUyXe2-6y0LKFW9oWpbS942oT2aE
+id: jcorex_endnotexml
+label: 'Jcorex Endnotexml'
+profile_id: jcorex-endnotexml
+configuration: {  }
+dw_logging: null
+exists_field: ''

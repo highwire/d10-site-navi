@@ -1,0 +1,22 @@
+uuid: c7ebd96a-4228-46dd-8679-ac4830eb2ca0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.title_plain
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.title_plain
+field_name: title_plain
+entity_type: node
+bundle: relationship
+label: title-plain
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,12 @@
+uuid: 6384877b-17b5-4bc1-bec2-c96ff5496928
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jZnBhzA8Sx97Nt4sbz12rWumEr2MZ7Uuss_djecjjG4
+id: jcorex_bookend
+label: 'Jcorex Bookend'
+profile_id: jcorex-bookend
+configuration: {  }
+dw_logging: null
+exists_field: ''

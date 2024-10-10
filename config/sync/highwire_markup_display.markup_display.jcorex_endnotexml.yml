@@ -1,0 +1,19 @@
+uuid: 37844653-6ce5-4243-953d-dd84e94e81eb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: y-qLnd8aVMSL0q17P1sSpiqkWo9nsQiO0-cyKsngcRY
+id: jcorex_endnotexml
+label: 'Jcorex Endnotexml'
+configurations:
+  -
+    markup_profile: jcorex_endnotexml
+    access_rule: ''
+    field_group_settings:
+      field_group_formatter: '0'
+    weight: '1'
+markup_field_enabled: false
+markup_field_content_types: {  }
+log: false
+render_placeholder: false

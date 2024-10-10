@@ -1,0 +1,10 @@
+uuid: d91ae97a-0e07-45a9-8aac-cc57656d2a83
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7RTN9aKwAtCntybU2z3lqDt2-jHzumndCMJgRjL7CUg
+id: alerts_default_date_format
+label: 'Alerts Default Date Format'
+locked: false
+pattern: 'd F Y'

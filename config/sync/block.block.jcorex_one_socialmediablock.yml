@@ -1,0 +1,22 @@
+uuid: 8fe40c91-c2fc-4867-9507-30a059ebcae0
+langcode: en
+status: true
+dependencies:
+  module:
+    - jnl_basic_config
+  theme:
+    - jcorex_one
+_core:
+  default_config_hash: ffUCyXdHKXElVwNhr9sL2riXta5MDfAQtToeEzrOhNo
+id: jcorex_one_socialmediablock
+theme: jcorex_one
+region: header_nav
+weight: -9
+provider: null
+plugin: social_media_block
+settings:
+  id: social_media_block
+  label: 'Social Media block'
+  label_display: '0'
+  provider: jnl_basic_config
+visibility: {  }

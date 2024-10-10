@@ -1,0 +1,200 @@
+uuid: 2c760044-8a99-49c9-aeab-3a56ce89e3c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.eletters.body
+    - field.field.node.eletters.field_attachments
+    - field.field.node.eletters.field_contributors
+    - field.field.node.eletters.field_corpus_info
+    - field.field.node.eletters.field_electronic_publication
+    - field.field.node.eletters.field_electronic_publication_dat
+    - field.field.node.eletters.field_highwire_comment_response
+    - field.field.node.eletters.field_highwire_comment_subject
+    - field.field.node.eletters.field_highwire_comment_subject_a
+    - field.field.node.eletters.field_no_competing_interests
+    - field.field.node.eletters.field_please_describe_the_compet
+    - field.field.node.eletters.field_print_publication_date
+    - field.field.node.eletters.field_references
+    - field.field.node.eletters.field_workflow_state
+    - node.type.eletters
+  module:
+    - datetime_range
+    - field_group
+    - paragraphs
+    - text
+third_party_settings:
+  field_group:
+    group_compose_response:
+      children:
+        - title
+        - body
+      label: 'COMPOSE RESPONSE'
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: open
+        description: ''
+        required_fields: true
+    group_references:
+      children:
+        - field_references
+      label: REFERENCES
+      region: content
+      parent_name: ''
+      weight: 1
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: open
+        description: ''
+        required_fields: true
+    group_author_information:
+      children:
+        - field_contributors
+      label: 'AUTHOR INFORMATION'
+      region: content
+      parent_name: ''
+      weight: 2
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: open
+        description: ''
+        required_fields: true
+    group_statement_of_competing_int:
+      children:
+        - field_no_competing_interests
+        - field_please_describe_the_compet
+      label: 'STATEMENT OF COMPETING INTERESTS'
+      region: content
+      parent_name: ''
+      weight: 3
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: open
+        description: ''
+        required_fields: true
+_core:
+  default_config_hash: '-Ja7PorFsF5rSgJgf5d7pOnHgDFgvI7h_o2GhzZHUIw'
+id: node.eletters.default
+targetEntityType: node
+bundle: eletters
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 5
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_contributors:
+    type: paragraphs
+    weight: 13
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_electronic_publication:
+    type: options_buttons
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_electronic_publication_dat:
+    type: daterange_default
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_highwire_comment_response:
+    type: entity_reference_autocomplete
+    weight: 6
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_highwire_comment_subject:
+    type: entity_reference_autocomplete
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_no_competing_interests:
+    type: options_buttons
+    weight: 18
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_please_describe_the_compet:
+    type: string_textarea
+    weight: 19
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_references:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_workflow_state:
+    type: options_select
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_attachments: true
+  field_corpus_info: true
+  field_highwire_comment_subject_a: true
+  field_print_publication_date: true
+  langcode: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

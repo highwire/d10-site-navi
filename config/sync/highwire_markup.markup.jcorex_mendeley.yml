@@ -1,0 +1,12 @@
+uuid: 8200a1b5-ab8b-4c8c-b67d-66f9ede66804
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: L0Gae6XuFkerB49ocd5hmHcHP4LPKhoKfCW_PJbay_U
+id: jcorex_mendeley
+label: 'Jcorex Mendeley'
+profile_id: jcorex-mendeley
+configuration: {  }
+dw_logging: null
+exists_field: ''

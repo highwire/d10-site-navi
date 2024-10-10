@@ -1,0 +1,22 @@
+uuid: 29ebc68b-e48d-428d-a066-03f0fb04abb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.issue_page_range
+    - node.type.media
+  module:
+    - text
+id: node.media.issue_page_range
+field_name: issue_page_range
+entity_type: node
+bundle: media
+label: issue-page-range
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

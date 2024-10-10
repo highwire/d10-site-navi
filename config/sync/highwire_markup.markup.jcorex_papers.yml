@@ -1,0 +1,12 @@
+uuid: f1b6eb44-733d-47fd-950c-c0688b0e7b36
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Ti-5zuBO3wjifpa4MCsq0WkhVQql-2EA3hvdd5ixjZY
+id: jcorex_papers
+label: 'Jcorex Papers'
+profile_id: jcorex-papers
+configuration: {  }
+dw_logging: null
+exists_field: ''

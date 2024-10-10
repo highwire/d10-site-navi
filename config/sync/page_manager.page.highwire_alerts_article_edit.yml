@@ -1,0 +1,14 @@
+uuid: 8b9838d6-34cf-4a6c-a1ae-dc629d810414
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ZdEDCqmIBqoVULA6xFVY4P-FWHq_UUKCRTAXIDM6CxM
+id: highwire_alerts_article_edit
+label: 'Highwire Alerts Article Edit'
+description: ''
+use_admin_theme: false
+path: '/alerts/article/edit/{issue}'
+access_logic: and
+access_conditions: {  }
+parameters: {  }

@@ -1,0 +1,14 @@
+uuid: 71044e0c-55b1-48aa-88dc-d5b738a2a2e8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MHgsd2NK7q0-_becNR73A2iE4g7xcGFfU-1O30yu8u0
+id: highwire_toc_alerts_edit
+label: 'Highwire TOC Alerts Edit'
+description: 'Highwire TOC Alerts Edit'
+use_admin_theme: false
+path: /alerts/toc/edit
+access_logic: and
+access_conditions: {  }
+parameters: {  }

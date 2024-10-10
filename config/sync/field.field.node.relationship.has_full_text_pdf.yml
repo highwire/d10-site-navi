@@ -1,0 +1,21 @@
+uuid: 90a57dea-808c-4dfc-829f-735927f5b5c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.has_full_text_pdf
+    - node.type.relationship
+id: node.relationship.has_full_text_pdf
+field_name: has_full_text_pdf
+entity_type: node
+bundle: relationship
+label: has-full-text-pdf
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

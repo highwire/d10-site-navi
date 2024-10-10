@@ -1,0 +1,19 @@
+uuid: fa4c0f47-01b3-4c12-80d5-ad387a9b0835
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xRWcgQNf9jyXe15SpH_pSNhQe2sbdZOdH4W0xcp8ZjM
+id: jcorex_mendeley
+label: 'Jcorex Mendeley'
+configurations:
+  -
+    markup_profile: jcorex_mendeley
+    access_rule: ''
+    field_group_settings:
+      field_group_formatter: '0'
+    weight: '1'
+markup_field_enabled: false
+markup_field_content_types: {  }
+log: false
+render_placeholder: false

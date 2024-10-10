@@ -1,0 +1,14 @@
+uuid: 40ea2149-39f3-444b-9ef3-365127042f97
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _W82p0nccJ8tCmo6j0wCjZxMaW8A0Xi3C3yXwMIH-9g
+id: ion_article_alerts_form
+label: 'ion article alerts form'
+description: 'ion article alerts form'
+use_admin_theme: false
+path: /alerts/article/criteria
+access_logic: and
+access_conditions: {  }
+parameters: {  }

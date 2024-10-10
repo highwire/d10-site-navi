@@ -1,0 +1,15 @@
+uuid: fbc492d7-9c83-4fa6-887f-712ce5ecbdff
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XJPKqcADgp6pK2Ad1wq4CAeUJWj3ufJyrui6rxh7RtE
+title: 'Easybib Journal'
+id: easybib_journal
+export_plugin: easybib
+label: null
+format_type: markup
+citations_tokens: ''
+content_types: {  }
+content_type_prefix: ''
+citations_markup: jcorex_easybib

@@ -1,0 +1,19 @@
+uuid: 34669148-0712-4f8e-9893-a4e6e1264cfc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.extract_policy
+    - node.type.relationship
+id: node.relationship.extract_policy
+field_name: extract_policy
+entity_type: node
+bundle: relationship
+label: 'Extract Policy'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

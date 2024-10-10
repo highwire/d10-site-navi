@@ -1,0 +1,10 @@
+uuid: 541ac8f0-b8ec-49ec-b84f-e8977d64d73c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tc-Vs8aOBmlgj0_BSzKulSSRuSFySHb9yurBnplT7nE
+id: highwire-p13n-manage-secondary
+label: 'HighWire Personalization: Manage (Secondary)'
+description: 'Secondary menu links for the HighWire Personalization admin pages.'
+locked: false

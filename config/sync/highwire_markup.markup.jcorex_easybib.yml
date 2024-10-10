@@ -1,0 +1,12 @@
+uuid: d5b0fe1e-7270-423d-8b43-22643ff66049
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 723YZIRmWFlPQTSbNDZg6CwlR6LVAp6B1mz37zQ3CzY
+id: jcorex_easybib
+label: 'Jcorex Easybib'
+profile_id: jcorex-easybib
+configuration: {  }
+dw_logging: null
+exists_field: ''

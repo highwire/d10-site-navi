@@ -1,0 +1,21 @@
+uuid: fcf88bcb-fc32-47d2-b9d9-217076f985e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.date_received
+    - node.type.relationship
+  module:
+    - datetime_range
+id: node.relationship.date_received
+field_name: date_received
+entity_type: node
+bundle: relationship
+label: date-received
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

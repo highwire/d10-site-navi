@@ -1,0 +1,14 @@
+uuid: cde1f2c7-a79d-4228-98d3-f799c32d34b5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jiLNnwS4dCeRySzpOaLLnsyF4TTjFnrgxBhLnHe1cVQ
+id: archive_per_volume
+label: 'Archive per Volume'
+description: ''
+use_admin_theme: false
+path: '/content/by/volume/{volume}'
+access_logic: and
+access_conditions: {  }
+parameters: {  }

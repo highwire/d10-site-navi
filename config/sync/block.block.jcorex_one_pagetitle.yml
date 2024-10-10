@@ -1,0 +1,27 @@
+uuid: 3f769135-9528-4e6a-b8eb-4663bcfec757
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - jcorex_one
+_core:
+  default_config_hash: '-zR1F7U6wQd1J4eJCuNw_mMMjz2re8xCkgP-rKddio8'
+id: jcorex_one_pagetitle
+theme: jcorex_one
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/search*\r\n/books\r\n/journals\r\n/references\r\n/my-content"

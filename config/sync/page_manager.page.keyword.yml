@@ -1,0 +1,14 @@
+uuid: c3b3ddd7-5f9b-4ce6-b3d7-bc30f8f4aaba
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Tu5szKBjwJxn4ehjuWU5T1B5tZRLCJ0SCWjiBjn5lX8
+id: keyword
+label: Keyword
+description: ''
+use_admin_theme: false
+path: '/keyword/{keyword}'
+access_logic: and
+access_conditions: {  }
+parameters: {  }

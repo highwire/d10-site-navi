@@ -1,0 +1,22 @@
+uuid: 436ffc8d-9f83-4cb7-904a-c8b979de76c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.journal_pissn_compact
+    - node.type.journal_issue
+  module:
+    - text
+id: node.journal_issue.journal_pissn_compact
+field_name: journal_pissn_compact
+entity_type: node
+bundle: journal_issue
+label: journal-pissn-compact
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,9 @@
+uuid: bcb09137-9936-4b2e-8ba9-54e44e2f07e7
+langcode: en
+status: true
+dependencies: {  }
+id: institution
+label: 'HighWire User - Institution'
+weight: 13
+is_admin: null
+permissions: {  }

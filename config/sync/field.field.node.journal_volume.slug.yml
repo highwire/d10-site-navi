@@ -1,0 +1,22 @@
+uuid: 95eb7904-c307-4eea-9963-372f63a61799
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.slug
+    - node.type.journal_volume
+  module:
+    - text
+id: node.journal_volume.slug
+field_name: slug
+entity_type: node
+bundle: journal_volume
+label: slug
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

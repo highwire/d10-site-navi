@@ -1,0 +1,22 @@
+uuid: ddf460ec-b739-4d38-838e-1798488704f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.section_data
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.section_data
+field_name: section_data
+entity_type: node
+bundle: relationship
+label: section-data
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

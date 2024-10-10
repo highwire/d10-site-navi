@@ -1,0 +1,19 @@
+uuid: 2ebbdee4-26c9-42aa-a451-d9357a2dd3f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.corpus
+    - node.type.journal_article
+id: node.journal_article.corpus
+field_name: corpus
+entity_type: node
+bundle: journal_article
+label: Corpus
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

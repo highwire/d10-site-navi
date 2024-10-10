@@ -1,0 +1,21 @@
+uuid: 7ce3bc95-bae3-4342-897d-bf4ced5b9915
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.early_release
+    - node.type.relationship
+id: node.relationship.early_release
+field_name: early_release
+entity_type: node
+bundle: relationship
+label: early-release
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

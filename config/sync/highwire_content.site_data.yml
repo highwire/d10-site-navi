@@ -1,0 +1,21 @@
+highwire_content_site_data:
+  navi:
+    id: navi
+    publisher-id: ion
+    status: production
+    type: journal
+    name: 'NAVIGATION: Journal of the Institute of Navigation'
+    abbrev:
+      publisher: navi
+    url:
+      ac_service: 'http://navi-ac.highwire.org'
+      ac_service_development: 'http://navi-ac-dev.highwire.org'
+      development: 'http://navi.ion.org:4040'
+      legacy: 'http://hwmaint.navi.ion.org'
+      legacy_development: 'http://hwmaint.navi.ion.org:4040'
+      production: 'https://navi.ion.org'
+    alert-types:
+      production: 'announcements,toc_awareness_alerts,pap_alerts,cpetoc_alerts'
+    content-features:
+      development: pap
+      production: pap

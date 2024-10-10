@@ -1,0 +1,26 @@
+uuid: 0c660850-66be-4332-9283-bc4ca1f8945c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.advanced_page
+  module:
+    - text
+_core:
+  default_config_hash: isYKXaxh6cCUA1n2L2oYqopSUSCLfRy9lH2fsZRA4L0
+id: node.advanced_page.body
+field_name: body
+entity_type: node
+bundle: advanced_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

@@ -1,0 +1,84 @@
+uuid: 27755639-b57e-4ca9-a242-31f618f2a42d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - block_content.type.image_block
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - node.type.banner
+    - node.type.page
+  module:
+    - block_content
+    - contextual
+    - entityqueue
+    - file
+    - filter
+    - highwire_access_control
+    - highwire_content
+    - highwire_personalization
+    - imce
+    - layout_builder
+    - media
+    - node
+    - page_manager
+    - path
+    - quickedit
+    - system
+    - toolbar
+    - views_ui
+_core:
+  default_config_hash: 1Zm4ht1NheOM8mgs9fYALl5SmdZU7yC_-et1cY5XpnU
+id: editor
+label: Editor
+weight: 11
+is_admin: null
+permissions:
+  - 'View embargoed content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access control admin override'
+  - 'access files overview'
+  - 'access in-place editing'
+  - 'access p13n reports'
+  - 'access toolbar'
+  - 'administer entityqueue'
+  - 'administer filters'
+  - 'administer imce'
+  - 'administer menu'
+  - 'administer nodes'
+  - 'administer pages'
+  - 'administer site configuration'
+  - 'administer views'
+  - 'create and edit custom blocks'
+  - 'create banner content'
+  - 'create page content'
+  - 'create url aliases'
+  - 'delete any banner content'
+  - 'delete any file'
+  - 'delete any page content'
+  - 'delete banner revisions'
+  - 'delete own banner content'
+  - 'delete own files'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'edit any basic block content'
+  - 'edit any image_block block content'
+  - 'edit own banner content'
+  - 'edit own page content'
+  - 'manipulate all entityqueues'
+  - 'manipulate entityqueues'
+  - 'revert banner revisions'
+  - 'revert page revisions'
+  - 'update highlight_homepage_carousel entityqueue'
+  - 'update home_page_hero_banner entityqueue'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view all revisions'
+  - 'view banner revisions'
+  - 'view media'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view page revisions'
+  - 'view the administration theme'

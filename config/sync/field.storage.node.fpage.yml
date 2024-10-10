@@ -1,0 +1,19 @@
+uuid: 0ab891f8-c45b-4a26-995b-d989e120c9c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.fpage
+field_name: fpage
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

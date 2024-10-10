@@ -1,0 +1,14 @@
+uuid: a2db430f-ed23-45a2-bb18-cac6aa167ff0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eU5yBNtvCVgGmpfEmw3ERQ9TGl63nmB2rB4ArMB0wPM
+id: section_data
+label: 'Section Data'
+description: ''
+use_admin_theme: false
+path: '/content/by/section/{section}'
+access_logic: and
+access_conditions: {  }
+parameters: {  }

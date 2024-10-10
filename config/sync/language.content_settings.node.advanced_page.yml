@@ -1,0 +1,13 @@
+uuid: fca45659-2dde-4939-8c33-1bc4a05aef42
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.advanced_page
+_core:
+  default_config_hash: 94YCkuDzP9RbqXBlY8IIF376CN_YlYS9WL9XAwjNxfQ
+id: node.advanced_page
+target_entity_type_id: node
+target_bundle: advanced_page
+default_langcode: site_default
+language_alterable: false

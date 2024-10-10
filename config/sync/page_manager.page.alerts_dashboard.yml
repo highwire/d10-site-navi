@@ -1,0 +1,14 @@
+uuid: 64b2fa82-c315-4e49-b7f5-d5561b8f6b1f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AWVNbXBqFCQaLhF2X5MWKe0ltkdI7AVVZLcy2RvQ9EU
+id: alerts_dashboard
+label: 'Alerts dashboard'
+description: 'Highwire Alert Page'
+use_admin_theme: false
+path: /alerts
+access_logic: and
+access_conditions: {  }
+parameters: {  }

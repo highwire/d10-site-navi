@@ -1,0 +1,14 @@
+uuid: 6b43819b-2947-4d46-938f-df1aed8d4570
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: erzvpUgEMd97UDQQdICsvIL6pHFM7-NbGq6MXITVZYo
+id: highwire_article_alerts_add
+label: 'Highwire Article Alerts Add'
+description: 'Highwire Article Alerts Add'
+use_admin_theme: false
+path: '/alerts/article/add/{issue}'
+access_logic: and
+access_conditions: {  }
+parameters: {  }

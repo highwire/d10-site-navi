@@ -1,0 +1,23 @@
+uuid: b46d128b-ecd4-45e3-973f-7de7303dcd8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.sibling_order
+    - node.type.journal_fragment
+id: node.journal_fragment.sibling_order
+field_name: sibling_order
+entity_type: node
+bundle: journal_fragment
+label: sibling-order
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

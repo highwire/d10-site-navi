@@ -1,0 +1,10 @@
+uuid: 38878345-bdc0-4f30-a30a-d99fa9cb6d5d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: iII6FdHrABEinsRBI_TIddmbzmmd1OE88vw962m8YYc
+id: browse-content
+label: 'Browse Content'
+description: ''
+locked: false

@@ -1,0 +1,14 @@
+uuid: fc705a5c-1034-4c3b-bd19-d1341e10db71
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.individual
+  module:
+    - user
+id: user_add_role_action.individual
+label: 'Add the HighWire User - Individual role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: individual
