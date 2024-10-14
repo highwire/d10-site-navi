@@ -132,8 +132,8 @@ dependencies:
     - user
 third_party_settings:
   layout_builder:
-    allow_custom: false
     enabled: false
+    allow_custom: false
 _core:
   default_config_hash: zgGehkd3nsVtqV4wUHhFwAgJWVh_NFfB76i2L194g10
 id: node.journal_article.full_text_markup
@@ -142,10 +142,10 @@ bundle: journal_article
 mode: full_text_markup
 content:
   links:
-    weight: 100
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 100
+    region: content
 hidden:
   abstract_type: true
   addtoany: true

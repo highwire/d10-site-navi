@@ -11,8 +11,13 @@ _core:
   default_config_hash: AU6yAilg_usEtk6D4SR4n8x8tqjStqG6UKZZnrQoyQA
 id: highwire_toc_alerts_edit-panels_variant-0
 label: Panels
+weight: 0
 variant: panels_variant
 variant_settings:
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: 37261466-614c-4d20-837e-4cad30020f22
   blocks:
     f521adb3-2af0-434d-8477-d96b3c145e6b:
       id: page_title_block
@@ -35,7 +40,7 @@ variant_settings:
       toc_alert_fieldset:
         etoc_full_checkbox: 1
         etoc_notice_only_checkbox: 1
-        continuous_publication_checkbox: 1
+        continuous_publication_checkbox: 0
         pap_alert_checkbox: 1
         announcement_alert_checkbox: 1
       etoc_alert_fieldset:
@@ -66,10 +71,6 @@ variant_settings:
       region: left
       weight: 0
       uuid: 3b55f32a-9804-406c-96d5-f5e83314f3aa
-  id: panels_variant
-  label: null
-  weight: 0
-  uuid: 37261466-614c-4d20-837e-4cad30020f22
   page_title: 'Manage eTOC Alerts'
   layout: bs_2col_stacked
   layout_settings:
@@ -109,7 +110,6 @@ variant_settings:
   storage_type: page_manager
   storage_id: highwire_toc_alerts_edit-panels_variant-0
 page: highwire_toc_alerts_edit
-weight: 0
 selection_criteria: {  }
 selection_logic: and
 static_context: {  }
