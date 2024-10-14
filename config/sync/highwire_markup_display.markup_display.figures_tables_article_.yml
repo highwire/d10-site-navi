@@ -9,7 +9,7 @@ label: 'Figures & Tables (Article)'
 configurations:
   -
     markup_profile: figures_tables
-    access_rule: online
+    access_rule: ''
     field_group_settings:
       field_group_formatter: '0'
     weight: '1'

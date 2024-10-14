@@ -4,7 +4,10 @@ status: true
 dependencies:
   config:
     - page_manager.page.node_view
+  content:
+    - 'block_content:basic:7f4b9182-0dc3-49e5-b7cf-99c77573124b'
   module:
+    - block_content
     - ctools
     - highwire_top_topics
     - jnl_core
@@ -16,8 +19,13 @@ _core:
   default_config_hash: jN4xsNSxuFXIm99TZq03xsu0AXBjK7DC_PSFkdQrzj8
 id: node_view-panels_variant-3
 label: issue
+weight: 0
 variant: panels_variant
 variant_settings:
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: be92a481-5963-4572-a1eb-e8eaad43084c
   blocks:
     c01f57f9-bcc3-4d83-8610-dd23776fcdc5:
       id: 'entity_view:node'
@@ -28,7 +36,7 @@ variant_settings:
       context_mapping:
         entity: node
       region: top
-      weight: 0
+      weight: -10
       uuid: c01f57f9-bcc3-4d83-8610-dd23776fcdc5
     1b634706-f02f-4ad1-b03e-6fdc7d9c3409:
       id: 'entity_view:node'
@@ -48,13 +56,13 @@ variant_settings:
       provider: highwire_top_topics
       context_mapping: {  }
       region: right
-      weight: 0
+      weight: 1
       uuid: b8d25a7d-c805-4112-9da4-3bd57a8e796a
       top_topics: 1
       top_topics_title: ''
       most_read: 1
       most_read_title: ''
-      most_cited: 1
+      most_cited: 0
       most_cited_title: ''
       eletter_articles: 0
       eletter_articles_title: ''
@@ -72,21 +80,22 @@ variant_settings:
       uuid: bb076ee8-45f5-434c-9865-82c80445e220
     308378ec-c278-4525-9e28-4d21af763eaf:
       id: jump_to_section
-      label: 'Jump to Section'
+      label: 'Jump to'
       label_display: '0'
       provider: journal_article_detail
-      markup: jump_to_table_of_contents_
-      access_control_rule: ''
       context_mapping:
         node: node
       region: right
       weight: -1
       uuid: 308378ec-c278-4525-9e28-4d21af763eaf
+      markup: jump_to_table_of_contents_
+      access_control_rule: ''
       include_abstract: 0
       abstract_settings:
         markup: abstract_search
         title: ''
         id: ''
+      display_tabs: 0
     8a1b5bea-f406-4f6b-9950-484f89631845:
       id: jnl_core_backtotop
       label: 'Back to top'
@@ -105,10 +114,18 @@ variant_settings:
       region: right
       weight: -2
       uuid: a35a5255-40c8-4f73-8206-e2283aa78c2a
-  id: panels_variant
-  label: null
-  weight: 0
-  uuid: be92a481-5963-4572-a1eb-e8eaad43084c
+    b2c42857-fb7d-4d99-b18f-62c7e0440bed:
+      id: 'block_content:7f4b9182-0dc3-49e5-b7cf-99c77573124b'
+      label: 'ion TOC Page Ad'
+      label_display: '0'
+      provider: block_content
+      status: true
+      info: ''
+      view_mode: full
+      context_mapping: {  }
+      region: right
+      weight: 0
+      uuid: b2c42857-fb7d-4d99-b18f-62c7e0440bed
   page_title: '[node:journal_title] [node:title]'
   layout: bs_2col_stacked
   layout_settings:
@@ -145,7 +162,6 @@ variant_settings:
   storage_type: page_manager
   storage_id: node_view-panels_variant-3
 page: node_view
-weight: 0
 selection_criteria:
   -
     id: 'entity_bundle:node'

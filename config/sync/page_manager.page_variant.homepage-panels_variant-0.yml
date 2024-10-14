@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - page_manager.page.homepage
-    - views.view.current_issue
+    - views.view.latest_articles
   content:
     - 'block_content:basic:76e6b1a8-a3ef-4abf-bd86-a36aeb415946'
     - 'block_content:basic:962ed298-cdcf-4b4c-8cca-42d60354d84d'
@@ -28,17 +28,6 @@ variant_settings:
   weight: 0
   uuid: 61258e05-3ba6-4019-be28-bc2b42b2717d
   blocks:
-    5bd05b16-774b-46d5-8592-b3e2c41a95aa:
-      id: 'views_block:current_issue-block_1'
-      label: ''
-      label_display: '0'
-      provider: views
-      context_mapping: {  }
-      views_label: ''
-      items_per_page: none
-      region: left
-      weight: -9
-      uuid: 5bd05b16-774b-46d5-8592-b3e2c41a95aa
     c59d1620-00b1-4c9d-a443-5cac8c085148:
       id: most_read_cited_topics
       label: 'Most Read, Most Cited, Responses'
@@ -87,7 +76,7 @@ variant_settings:
       view_mode: full
       context_mapping: {  }
       region: left
-      weight: 0
+      weight: -1
       uuid: 07e72afd-eb26-45e6-95d8-0925e3a96f77
     a6943f66-f7c2-4a42-a5e7-79cfee44721d:
       id: 'block_content:962ed298-cdcf-4b4c-8cca-42d60354d84d'
@@ -113,6 +102,17 @@ variant_settings:
       region: right
       weight: -2
       uuid: 57b1cef7-4cc8-4846-82ec-faf8ffb343de
+    d8bb07b4-b450-4928-bfb9-93d360abf442:
+      id: 'views_block:latest_articles-block_1'
+      label: ''
+      label_display: visible
+      provider: views
+      context_mapping: {  }
+      views_label: ''
+      items_per_page: none
+      region: left
+      weight: -3
+      uuid: d8bb07b4-b450-4928-bfb9-93d360abf442
   page_title: Homepage
   layout: bs_2col_stacked
   layout_settings:
