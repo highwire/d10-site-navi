@@ -427,4 +427,6 @@ features:
 logo:
   use_default: 1
 favicon:
-  use_default: 1
+  use_default: 0
+  path: sites/default/files/2024-10/navi_ion_favicon.png
+  mimetype: image/png
