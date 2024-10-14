@@ -15,8 +15,13 @@ _core:
   default_config_hash: MXbNhR9LJ2RsskElpmBGOKp4x_hj9-b6m1ORFuPt7Cc
 id: node_view-panels_variant-2
 label: Journal
+weight: 0
 variant: panels_variant
 variant_settings:
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: 9959ed8c-0ea0-4063-8de1-e06f7b1a5780
   blocks:
     a7abfc2e-30ff-44da-9866-315be43d858c:
       id: 'entity_view:node'
@@ -86,10 +91,6 @@ variant_settings:
       limit: '5'
       corpus: ''
       read_more: 1
-  id: panels_variant
-  label: null
-  weight: 0
-  uuid: 9959ed8c-0ea0-4063-8de1-e06f7b1a5780
   page_title: '[node:title]'
   layout: bs_2col_stacked
   layout_settings:
@@ -126,7 +127,6 @@ variant_settings:
   storage_type: page_manager
   storage_id: node_view-panels_variant-2
 page: node_view
-weight: 0
 selection_criteria:
   -
     id: 'entity_bundle:node'

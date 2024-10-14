@@ -16,8 +16,13 @@ _core:
   default_config_hash: 306qY_yXwbwpweCVYaZA8WVQ13sADVjfqMYGFrlJZ0M
 id: node_view-panels_variant-1
 label: Article
+weight: 0
 variant: panels_variant
 variant_settings:
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: 913cdc11-eec4-463b-af89-51b8f40e5a98
   blocks:
     cdfed180-ace1-4911-8443-79a331d46177:
       id: 'entity_view:node'
@@ -43,16 +48,16 @@ variant_settings:
       uuid: 8aebb1b3-a3f7-46fe-9a99-0c47375e5a33
     9ff1ea9a-2136-477e-b469-c26513339ddb:
       id: jump_to_section
-      label: 'Jump to'
+      label: 'Jump to section'
       label_display: '0'
       provider: journal_article_detail
-      markup: content_sections_nav
-      access_control_rule: ''
       context_mapping:
         node: node
       region: bottom_right
       weight: -1
       uuid: 9ff1ea9a-2136-477e-b469-c26513339ddb
+      markup: content_sections_nav
+      access_control_rule: ''
       include_abstract: 1
       include_content_top: 0
       abstract_settings:
@@ -124,16 +129,12 @@ variant_settings:
       label: ''
       label_display: visible
       provider: views
+      context_mapping: {  }
       views_label: ''
       items_per_page: none
-      context_mapping: {  }
       region: bottom_right
       weight: 0
       uuid: 79ca835a-dc96-439d-a1bf-4372a4c4e3f9
-  id: panels_variant
-  label: null
-  weight: 0
-  uuid: 913cdc11-eec4-463b-af89-51b8f40e5a98
   page_title: ''
   layout: bs_2col_bricked
   layout_settings:
@@ -191,7 +192,6 @@ variant_settings:
   storage_type: page_manager
   storage_id: node_view-panels_variant-1
 page: node_view
-weight: 0
 selection_criteria:
   -
     id: 'entity_bundle:node'

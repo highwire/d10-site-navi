@@ -2,16 +2,29 @@ _core:
   default_config_hash: 12cUBEGixXIGW6ewF97eTBAIpi-OmivzUDPk8Ie3-is
 blocks:
   -
-    info: 'ISSN 2161-4296'
+    info: 'ion TOC Page Ad'
     langcode: en
-    uuid: ef6c6c40-29ec-42a9-8cc9-7b66287d3a10
+    uuid: 7f4b9182-0dc3-49e5-b7cf-99c77573124b
     bundle: basic
     revision_id: null
     rev_id_current: null
     fields:
       body:
         -
-          value: '<p>Metrics shown below are collected from this platform only.</p>'
+          value: '<p><span style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(51, 51, 51);display:inline !important;float:none;font-family:sans-serif, Arial, Verdana, &quot;Trebuchet MS&quot;;font-size:13px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Metrics shown below are collected from this platform only.</span></p>'
+          summary: ''
+          format: full_html
+  -
+    info: 'NAVIGATION: Journal of the Institute of Navigation'
+    langcode: en
+    uuid: 76e6b1a8-a3ef-4abf-bd86-a36aeb415946
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p><em>NAVIGATION: Journal of the Institute of Navigation</em> is a quarterly electronic journal published by the <a href="https://www.ion.org">Institute of Navigation (ION)</a>. The journal publishes original, peer-reviewed papers in an open-access (OA) environment in all areas related to the art, science, and engineering of positioning, navigation, and timing (PNT) covering land (including indoor use), sea, air, and space applications.</p><p>PNT technologies of interest encompass navigation satellite systems (both global and regional), inertial navigation, electro-optical systems including lidar and imaging sensors, and radio-frequency ranging and timing systems, including those using signals of opportunity from communication systems and other non-traditional PNT sources. Papers about PNT algorithms and methods, such as error characterization and mitigation, integrity analysis, PNT signal processing, and multi-sensor integration are welcome. The journal also accepts papers on non-traditional applications of PNT systems, including remote sensing of the Earth’s surface or atmosphere, as well as selected historical and survey articles.</p><p><em>NAVIGATION</em> is read by engineers, professional navigators, astronomers, cartographers, photogrammetrists, meteorologists, physicists, educators, geodesists, surveyors, general aviation and airline pilots, mariners, yachtsmen, corporations, civil and military government agencies, private scientific and technical institutions, universities and training academies, consulting firms, patent/trademark attorneys, and anyone else interested in position-determining systems.</p><p>As of 2023&nbsp;<em>NAVIGATION </em>has a 3.1&nbsp;Journal Impact Factor (JIF), ranking <em>NAVIGATION </em>in the top ten academic journals in its class.</p>'
           summary: ''
           format: basic_html
   -
@@ -28,16 +41,16 @@ blocks:
           summary: ''
           format: full_html
   -
-    info: 'NAVIGATION: Journal of the Institute of Navigation'
+    info: 'ISSN 2161-4296'
     langcode: en
-    uuid: 76e6b1a8-a3ef-4abf-bd86-a36aeb415946
+    uuid: ef6c6c40-29ec-42a9-8cc9-7b66287d3a10
     bundle: basic
     revision_id: null
     rev_id_current: null
     fields:
       body:
         -
-          value: '<p><em>NAVIGATION: Journal of the Institute of Navigation</em> is a quarterly electronic journal published by the <a href="https://www.ion.org">Institute of Navigation (ION)</a>. The journal publishes original, peer-reviewed papers in an open-access (OA) environment in all areas related to the art, science, and engineering of positioning, navigation, and timing (PNT) covering land (including indoor use), sea, air, and space applications.</p><p>PNT technologies of interest encompass navigation satellite systems (both global and regional), inertial navigation, electro-optical systems including lidar and imaging sensors, and radio-frequency ranging and timing systems, including those using signals of opportunity from communication systems and other non-traditional PNT sources. Papers about PNT algorithms and methods, such as error characterization and mitigation, integrity analysis, PNT signal processing, and multi-sensor integration are welcome. The journal also accepts papers on non-traditional applications of PNT systems, including remote sensing of the Earth’s surface or atmosphere, as well as selected historical and survey articles.</p><p><em>NAVIGATION</em> is read by engineers, professional navigators, astronomers, cartographers, photogrammetrists, meteorologists, physicists, educators, geodesists, surveyors, general aviation and airline pilots, mariners, yachtsmen, corporations, civil and military government agencies, private scientific and technical institutions, universities and training academies, consulting firms, patent/trademark attorneys, and anyone else interested in position-determining systems.</p><p>As of 2023&nbsp;<em>NAVIGATION </em>has a 3.1&nbsp;Journal Impact Factor (JIF), ranking <em>NAVIGATION </em>in the top ten academic journals in its class.</p>'
+          value: '<p>Metrics shown below are collected from this platform only.</p>'
           summary: ''
           format: basic_html
   -
@@ -155,7 +168,7 @@ blocks:
     fields:
       field_image:
         -
-          target_id: '8882'
+          target_id: '10432'
           alt: 'Powered by Highwire'
           title: ''
           width: '190'
