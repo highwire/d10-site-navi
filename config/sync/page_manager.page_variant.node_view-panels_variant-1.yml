@@ -115,12 +115,8 @@ variant_settings:
       similar_articles: 1
       similar_articles_title: ''
       related_external_links:
-        scopus: scopus
         google: google
       cited_external_links:
-        isi: isi
-        scopus: scopus
-        crossref: crossref
         google: google
       see_more: 1
       similar_see_more: 1

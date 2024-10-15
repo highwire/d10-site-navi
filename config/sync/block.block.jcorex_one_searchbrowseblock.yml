@@ -1,0 +1,25 @@
+uuid: c800afb7-8b5f-4e1e-a382-b270e508a73f
+langcode: en
+status: true
+dependencies:
+  module:
+    - jnl_search
+    - system
+  theme:
+    - jcorex_one
+id: jcorex_one_searchbrowseblock
+theme: jcorex_one
+region: sidebar_second
+weight: 0
+provider: null
+plugin: searchBrowse
+settings:
+  id: searchBrowse
+  label: 'Search browse block'
+  label_display: '0'
+  provider: jnl_search
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /search

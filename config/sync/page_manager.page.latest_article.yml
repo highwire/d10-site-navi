@@ -1,0 +1,12 @@
+uuid: bc73cafa-a156-44d6-864b-22690b97b624
+langcode: en
+status: true
+dependencies: {  }
+id: latest_article
+label: 'Latest Article'
+description: ''
+use_admin_theme: false
+path: /content/latest
+access_logic: and
+access_conditions: {  }
+parameters: {  }

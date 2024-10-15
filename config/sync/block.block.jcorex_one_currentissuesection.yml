@@ -1,0 +1,25 @@
+uuid: cd924677-350f-4ac4-8d78-977b805d154a
+langcode: en
+status: true
+dependencies:
+  module:
+    - journal_article_detail
+    - system
+  theme:
+    - jcorex_one
+id: jcorex_one_currentissuesection
+theme: jcorex_one
+region: sidebar_second
+weight: 0
+provider: null
+plugin: jnl_current_issue
+settings:
+  id: jnl_current_issue
+  label: 'Current Issue'
+  label_display: '0'
+  provider: journal_article_detail
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /search
