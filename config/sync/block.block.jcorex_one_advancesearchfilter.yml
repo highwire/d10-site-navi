@@ -1,0 +1,27 @@
+uuid: 384a7cbf-09ca-40c1-95d7-3549fd8fe6b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - jnl_search
+    - system
+  theme:
+    - jcorex_one
+_core:
+  default_config_hash: klYPre1SPCxcIhIlXJNd1pw9dLKFPWWBy1CrYALToow
+id: jcorex_one_advancesearchfilter
+theme: jcorex_one
+region: content
+weight: 0
+provider: null
+plugin: jnl_search_advance_filter
+settings:
+  id: jnl_search_advance_filter
+  label: 'Advance Search Filter'
+  label_display: '0'
+  provider: jnl_search
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /search

@@ -1,0 +1,15 @@
+uuid: 18c3add3-171a-464c-82c5-2fca6021897d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: O8trE37c_q0OAds1uhJe9rHcKH79OuisT633ZcLlr8E
+title: 'Papers Journal'
+id: papers_journal
+export_plugin: papers
+label: null
+format_type: markup
+citations_tokens: ''
+content_types: {  }
+content_type_prefix: ''
+citations_markup: jcorex_papers

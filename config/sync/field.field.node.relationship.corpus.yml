@@ -1,0 +1,19 @@
+uuid: adbf3f39-5f72-48e7-994f-5a68bfd69516
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.corpus
+    - node.type.relationship
+id: node.relationship.corpus
+field_name: corpus
+entity_type: node
+bundle: relationship
+label: Corpus
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

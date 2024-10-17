@@ -1,0 +1,14 @@
+uuid: a465626c-6bfa-47f8-a2a2-9ca766ea3751
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4wwHgJMEgU2bkE9y-FHM54Fk73jtNMAK3EsZXq7DqyU
+id: highwire_alerts_preferences
+label: 'Highwire Alerts Preferences'
+description: ''
+use_admin_theme: false
+path: /alerts/pref
+access_logic: and
+access_conditions: {  }
+parameters: {  }

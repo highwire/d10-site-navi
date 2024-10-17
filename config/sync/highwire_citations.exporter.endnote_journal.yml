@@ -1,0 +1,15 @@
+uuid: 182b629f-8779-45a5-a56f-e59b428754f6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yvkrc-Q37EVetTBZFTOMwyc7PhE7h-w3uY0G7dLfTWA
+title: 'EndNote (tagged) Journal'
+id: endnote_journal
+export_plugin: endnote
+label: null
+format_type: markup
+citations_tokens: ''
+content_types: {  }
+content_type_prefix: ''
+citations_markup: jcorex_endnote

@@ -1,0 +1,20 @@
+uuid: b814c644-11f4-4c51-8fb8-fddc8fb5ba0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: vPiADhk6Fx6lgPtkiNJBcOeqCsog4gf35GMwqfMcKz8
+name: 'Advanced Page'
+type: advanced_page
+description: "Use advanced page for your static content, such as an 'About us' page. Static page provides fields to upload your own css and javascript files."
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

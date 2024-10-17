@@ -1,0 +1,144 @@
+uuid: 27755639-b57e-4ca9-a242-31f618f2a42d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - block_content.type.image_block
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - node.type.advanced_page
+    - node.type.article
+    - node.type.banner
+    - node.type.eletters
+    - node.type.journal
+    - node.type.journal_article
+    - node.type.journal_fragment
+    - node.type.journal_info
+    - node.type.journal_issue
+    - node.type.journal_volume
+    - node.type.media
+    - node.type.page
+    - node.type.relationship
+    - node.type.society
+    - taxonomy.vocabulary.tags
+  module:
+    - block
+    - block_content
+    - entityqueue
+    - field_ui
+    - file
+    - filter
+    - highwire_access_control
+    - highwire_content
+    - highwire_personalization
+    - imce
+    - layout_builder
+    - media
+    - node
+    - path
+    - quickedit
+    - system
+    - taxonomy
+    - toolbar
+_core:
+  default_config_hash: 1Zm4ht1NheOM8mgs9fYALl5SmdZU7yC_-et1cY5XpnU
+id: editor
+label: Editor
+weight: 11
+is_admin: null
+permissions:
+  - 'View embargoed content'
+  - 'access administration pages'
+  - 'access block library'
+  - 'access content overview'
+  - 'access control admin override'
+  - 'access files overview'
+  - 'access in-place editing'
+  - 'access p13n reports'
+  - 'access toolbar'
+  - 'administer block_content display'
+  - 'administer block_content fields'
+  - 'administer block_content form display'
+  - 'administer blocks'
+  - 'administer entity_subqueue display'
+  - 'administer entity_subqueue fields'
+  - 'administer imce'
+  - 'administer menu'
+  - 'administer nodes'
+  - 'administer taxonomy'
+  - 'create advanced_page content'
+  - 'create and edit custom blocks'
+  - 'create banner content'
+  - 'create basic block content'
+  - 'create eletters content'
+  - 'create image_block block content'
+  - 'create journal content'
+  - 'create journal_article content'
+  - 'create journal_fragment content'
+  - 'create journal_info content'
+  - 'create journal_issue content'
+  - 'create journal_volume content'
+  - 'create media content'
+  - 'create relationship content'
+  - 'create society content'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete advanced_page revisions'
+  - 'delete any advanced_page content'
+  - 'delete any article content'
+  - 'delete any banner content'
+  - 'delete any eletters content'
+  - 'delete any file'
+  - 'delete any journal content'
+  - 'delete any journal_article content'
+  - 'delete any journal_fragment content'
+  - 'delete any journal_info content'
+  - 'delete any journal_issue content'
+  - 'delete any journal_volume content'
+  - 'delete any media content'
+  - 'delete any page content'
+  - 'delete any relationship content'
+  - 'delete any society content'
+  - 'delete article revisions'
+  - 'delete banner revisions'
+  - 'delete eletters revisions'
+  - 'delete journal revisions'
+  - 'delete journal_article revisions'
+  - 'delete journal_fragment revisions'
+  - 'delete journal_info revisions'
+  - 'delete journal_issue revisions'
+  - 'delete journal_volume revisions'
+  - 'delete media revisions'
+  - 'delete own advanced_page content'
+  - 'delete own banner content'
+  - 'delete own eletters content'
+  - 'delete own files'
+  - 'delete own journal content'
+  - 'delete own journal_article content'
+  - 'delete own journal_fragment content'
+  - 'delete own journal_info content'
+  - 'delete own journal_issue content'
+  - 'delete own journal_volume content'
+  - 'delete own media content'
+  - 'delete own relationship content'
+  - 'delete own society content'
+  - 'delete relationship revisions'
+  - 'delete society revisions'
+  - 'edit any advanced_page content'
+  - 'edit any basic block content'
+  - 'edit any image_block block content'
+  - 'edit terms in tags'
+  - 'manipulate all entityqueues'
+  - 'manipulate entityqueues'
+  - 'revert any basic block content revisions'
+  - 'revert any image_block block content revisions'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view all revisions'
+  - 'view any basic block content history'
+  - 'view any image_block block content history'
+  - 'view media'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view the administration theme'

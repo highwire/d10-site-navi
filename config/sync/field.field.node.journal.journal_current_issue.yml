@@ -1,0 +1,21 @@
+uuid: cad2fdb9-d5e2-4be5-b255-4070ab3daee7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.journal_current_issue
+    - node.type.journal
+id: node.journal.journal_current_issue
+field_name: journal_current_issue
+entity_type: node
+bundle: journal
+label: journal-current-issue
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

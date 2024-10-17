@@ -1,0 +1,19 @@
+uuid: 2d617180-fe37-4dde-acd5-b43d9b968a7f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: f1S-4evss1yhNfVi1fPTN88oPoDebCKg0C5OSmxIJNw
+id: similar_articles
+label: 'Similar Articles'
+description: ''
+use_admin_theme: false
+path: '/similar/articles/{node}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  node:
+    machine_name: node
+    label: Node
+    type: 'entity:node'
+    optional: false

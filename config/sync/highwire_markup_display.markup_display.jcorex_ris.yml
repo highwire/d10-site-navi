@@ -1,0 +1,19 @@
+uuid: f04bd2a1-6e07-4868-bac5-ec27726b04ca
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: o-KjDfP8qcKsMCkboihjm3ZM_esMJrwxVvTiImtD6KQ
+id: jcorex_ris
+label: 'Jcorex Ris'
+configurations:
+  -
+    markup_profile: jcorex_ris
+    access_rule: ''
+    field_group_settings:
+      field_group_formatter: '0'
+    weight: '1'
+markup_field_enabled: false
+markup_field_content_types: {  }
+log: false
+render_placeholder: false

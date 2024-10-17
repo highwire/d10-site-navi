@@ -1,0 +1,24 @@
+uuid: d1fcb6be-c7f0-491d-a364-ca2be751c639
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.member_network
+    - node.type.journal_article
+  module:
+    - text
+_core:
+  default_config_hash: eh7N_39NLi-8bhfeRS-9NIdlAnWIVZYyn5B9D3CEmeo
+id: node.journal_article.member_network
+field_name: member_network
+entity_type: node
+bundle: journal_article
+label: member-network
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

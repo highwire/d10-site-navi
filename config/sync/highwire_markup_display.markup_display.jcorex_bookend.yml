@@ -1,0 +1,19 @@
+uuid: 659b09f3-28e5-424d-9171-c11e62f57d2f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AB_gT7pXbEaC7kismwQkhUOqdZG80zYzgfjiEiQPYuI
+id: jcorex_bookend
+label: 'Jcorex Bookend'
+configurations:
+  -
+    markup_profile: jcorex_bookend
+    access_rule: ''
+    field_group_settings:
+      field_group_formatter: '0'
+    weight: '1'
+markup_field_enabled: false
+markup_field_content_types: {  }
+log: false
+render_placeholder: false

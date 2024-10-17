@@ -1,0 +1,21 @@
+uuid: 64c874df-c837-4a6e-968c-e31af6b004b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.children
+    - node.type.journal_article
+id: node.journal_article.children
+field_name: children
+entity_type: node
+bundle: journal_article
+label: children
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

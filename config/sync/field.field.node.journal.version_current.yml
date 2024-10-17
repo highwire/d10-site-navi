@@ -1,0 +1,21 @@
+uuid: ef979961-de5d-4f82-9d3d-0ec4a64adb03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.version_current
+    - node.type.journal
+id: node.journal.version_current
+field_name: version_current
+entity_type: node
+bundle: journal
+label: version-current
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

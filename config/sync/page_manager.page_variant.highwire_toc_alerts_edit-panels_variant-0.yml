@@ -1,0 +1,115 @@
+uuid: 7353c99e-3c37-44fe-909b-b2304a49e0ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.highwire_toc_alerts_edit
+  module:
+    - highwire_alerts
+    - panels
+_core:
+  default_config_hash: AU6yAilg_usEtk6D4SR4n8x8tqjStqG6UKZZnrQoyQA
+id: highwire_toc_alerts_edit-panels_variant-0
+label: Panels
+weight: 0
+variant: panels_variant
+variant_settings:
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: 37261466-614c-4d20-837e-4cad30020f22
+  blocks:
+    f521adb3-2af0-434d-8477-d96b3c145e6b:
+      id: page_title_block
+      label: 'Page title'
+      label_display: '0'
+      provider: core
+      context_mapping: {  }
+      region: top
+      weight: 0
+      uuid: f521adb3-2af0-434d-8477-d96b3c145e6b
+    b127ab7a-e922-4cdf-a6a0-338e786db506:
+      id: Highwire_toc_alert
+      label: 'Highwire Toc alert'
+      label_display: '0'
+      provider: highwire_alerts
+      context_mapping: {  }
+      region: left
+      weight: 0
+      uuid: b127ab7a-e922-4cdf-a6a0-338e786db506
+      toc_alert_fieldset:
+        etoc_full_checkbox: 1
+        etoc_notice_only_checkbox: 1
+        continuous_publication_checkbox: 0
+        pap_alert_checkbox: 1
+        announcement_alert_checkbox: 1
+      etoc_alert_fieldset:
+        etoc_heading_label: 'Alert me via email when new issues are made available:'
+        etoc_full_checkbox_label: 'Table of Contents (full)'
+        etoc_content_display_name: 'Table of Contents'
+        etoc_awareness_checkbox_text: 'TOC Awareness (notice only)'
+        etoc_awareness_display_name: 'Table of Contents Awareness'
+      contiuous_publication_alert_fieldset:
+        contiuous_publication_heading_label: 'Alert me via email when new content is published:'
+        contiuous_publication_checkbox_label: 'Alert me of new articles'
+        contiuous_publication_display_label: 'Continuous publication etoc'
+      pap_alert_fieldset:
+        pap_heading_label: 'Alert me when new articles are published online:'
+        pap_checkbox_label: 'Publish ahead of print'
+        pap_display_label: 'Publish Ahead of Print'
+      announcement_alert_fieldset:
+        announcement_heading_label: 'Email me about related announcements:'
+        announcement_checkbox_label: Announcements
+        announcement_display_label: Announcement
+      site_code_toc_alert: ''
+    3b55f32a-9804-406c-96d5-f5e83314f3aa:
+      id: user_alerts_login_form
+      label: 'User ALerts Login Form'
+      label_display: '0'
+      provider: highwire_alerts
+      context_mapping: {  }
+      region: left
+      weight: 0
+      uuid: 3b55f32a-9804-406c-96d5-f5e83314f3aa
+  page_title: 'Manage eTOC Alerts'
+  layout: bs_2col_stacked
+  layout_settings:
+    label: ''
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 0
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          row: row
+        add_region_classes: 0
+        attributes: 'class|col-12 col-large-tablet-12'
+      left:
+        wrapper: div
+        classes:
+          row: row
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-7 col-large-tablet-8 layout__region--first'
+      right:
+        wrapper: div
+        classes:
+          row: row
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-5 col-large-tablet-4 layout__region--second'
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  builder: standard
+  storage_type: page_manager
+  storage_id: highwire_toc_alerts_edit-panels_variant-0
+page: highwire_toc_alerts_edit
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

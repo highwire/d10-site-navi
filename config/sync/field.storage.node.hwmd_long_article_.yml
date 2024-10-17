@@ -1,0 +1,22 @@
+uuid: 92769942-2edc-48e8-871b-92e0518e8466
+langcode: en
+status: true
+dependencies:
+  module:
+    - highwire_markup_display
+    - node
+_core:
+  default_config_hash: zisYo38Bqn7YUxx3SXUTFXEEJGTh13i6th-_iV2Efi0
+id: node.hwmd_long_article_
+field_name: hwmd_long_article_
+entity_type: node
+type: HWMarkupDisplay
+settings:
+  case_sensitive: false
+module: highwire_markup_display
+locked: true
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

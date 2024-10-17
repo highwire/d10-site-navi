@@ -1,0 +1,22 @@
+uuid: a2128b4b-c6e8-4b7c-8807-16f9351e28cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jcorex_one
+_core:
+  default_config_hash: xf5mH7fdLI_SMRvUWQN_0m9fpEGfG3XnDvoM5K89dvQ
+id: jcorex_one_mainpagecontent
+theme: jcorex_one
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
