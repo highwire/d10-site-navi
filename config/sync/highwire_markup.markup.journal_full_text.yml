@@ -29,21 +29,21 @@ configuration:
     weight: '1'
   -
     markup_processors_settings:
-      markup_processors: figureslinks
-      processor_config:
-        config:
-          size: variant_medium_image
-          download_figure: '1'
-          open_tab: '1'
-          download_powerpoint: '1'
-          tab: article
-    weight: '1'
-  -
-    markup_processors_settings:
       markup_processors: tableslinks
       processor_config:
         config:
           view_popup: '1'
+          tab: article
+    weight: '1'
+  -
+    markup_processors_settings:
+      markup_processors: figureslinks
+      processor_config:
+        config:
+          size: variant_small_image
+          download_figure: '1'
+          open_tab: '1'
+          download_powerpoint: '1'
           tab: article
     weight: '1'
 dw_logging: null

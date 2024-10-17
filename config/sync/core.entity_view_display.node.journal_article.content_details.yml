@@ -130,6 +130,7 @@ dependencies:
   module:
     - field_group
     - highwire_access_control
+    - highwire_markup_display
     - layout_builder
     - text
     - user
@@ -144,7 +145,6 @@ third_party_settings:
         - hw_marker_sign_up
         - hw_alerts_sign_up
         - hw_tag_sign_up
-        - ccc_permissions_link
       label: 'Action Tools'
       parent_name: ''
       region: content
@@ -164,7 +164,7 @@ content:
   addtoany:
     settings: {  }
     third_party_settings: {  }
-    weight: 6
+    weight: 5
     region: content
   article_type:
     type: text_default
@@ -183,7 +183,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 5
+    weight: 4
     region: content
   email_article:
     settings: {  }
@@ -210,6 +210,13 @@ content:
     third_party_settings: {  }
     weight: 3
     region: content
+  hwmd_contributors:
+    type: hwmarkup_display_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
@@ -221,7 +228,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 3
+    weight: 2
     region: content
   variant_full_text_pdf:
     type: access_aware_file_url_plain
@@ -232,7 +239,7 @@ content:
       access_denied_html: ''
       access_link_hide: false
     third_party_settings: {  }
-    weight: 4
+    weight: 3
     region: content
 hidden:
   abstract_type: true
@@ -298,7 +305,6 @@ hidden:
   hwmd_abstract_search: true
   hwmd_abstract_search_index_: true
   hwmd_collection_detail: true
-  hwmd_contributors: true
   hwmd_contributors_plain_: true
   hwmd_figures_tables_article_: true
   hwmd_long_article_: true
