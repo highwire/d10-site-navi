@@ -128,7 +128,7 @@ display:
           plugin_id: text
           empty: true
           content:
-            value: 'No similar articles found.'
+            value: '<div class="no-results">No similar articles found.</div>'
             format: full_html
           tokenize: false
       sorts: {  }
