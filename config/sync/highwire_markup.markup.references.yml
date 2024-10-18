@@ -1,0 +1,10 @@
+uuid: 7c11f49e-26cc-4af9-98a8-8cba0c663c09
+langcode: en
+status: true
+dependencies: {  }
+id: references
+label: References
+profile_id: references
+configuration: {  }
+dw_logging: null
+exists_field: ''
