@@ -65,6 +65,7 @@ dependencies:
     - field.field.node.journal_article.hwmd_contributors_plain_
     - field.field.node.journal_article.hwmd_figures_tables_article_
     - field.field.node.journal_article.hwmd_long_article_
+    - field.field.node.journal_article.hwmd_references
     - field.field.node.journal_article.issn_epub
     - field.field.node.journal_article.issn_ppub
     - field.field.node.journal_article.issue
@@ -227,6 +228,7 @@ hidden:
   hwmd_contributors_plain_: true
   hwmd_figures_tables_article_: true
   hwmd_long_article_: true
+  hwmd_references: true
   issn_epub: true
   issn_ppub: true
   issue: true

@@ -65,6 +65,7 @@ dependencies:
     - field.field.node.journal_article.hwmd_contributors_plain_
     - field.field.node.journal_article.hwmd_figures_tables_article_
     - field.field.node.journal_article.hwmd_long_article_
+    - field.field.node.journal_article.hwmd_references
     - field.field.node.journal_article.issn_epub
     - field.field.node.journal_article.issn_ppub
     - field.field.node.journal_article.issue
@@ -174,6 +175,7 @@ third_party_settings:
       children:
         - group_article
         - group_figures_tables
+        - group_references
         - group_metrics
       label: 'Article Tabs'
       parent_name: group_outer
@@ -241,7 +243,7 @@ third_party_settings:
       label: 'Info & Metrics'
       parent_name: group_article_tabs
       region: content
-      weight: 23
+      weight: 24
       format_type: highwire_tab
       format_settings:
         description: ''
@@ -284,6 +286,21 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
+    group_references:
+      children:
+        - hwmd_references
+      label: References
+      parent_name: group_article_tabs
+      region: content
+      weight: 23
+      format_type: highwire_tab
+      format_settings:
+        description: ''
+        formatter: closed
+        id: ''
+        classes: 'tab-content article__tabcontent-body'
+        show_empty_fields: 0
+        active: 0
 _core:
   default_config_hash: XV9q37Mbz2XfiGOPxoDLLj8MKtnjsZESt4GLTPt4moU
 id: node.journal_article.full
@@ -308,7 +325,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 57
+    weight: 11
     region: content
   hwmd_figures_tables_article_:
     type: hwmarkup_display_formatter
@@ -324,10 +341,17 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
+  hwmd_references:
+    type: hwmarkup_display_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
   jnl_info_metrics_tab:
     settings: {  }
     third_party_settings: {  }
-    weight: 56
+    weight: 10
     region: content
   prevnext_toc_pager:
     settings: {  }
