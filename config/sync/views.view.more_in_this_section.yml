@@ -127,7 +127,7 @@ display:
           plugin_id: text
           empty: true
           content:
-            value: '<div class="text-center pt-2 pb-2">No articles found.</div>'
+            value: '<div class="no-results">No articles found.</div>'
             format: full_html
           tokenize: false
       sorts:
