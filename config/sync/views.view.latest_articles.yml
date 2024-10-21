@@ -181,7 +181,20 @@ display:
           output_lifespan: 300
           output_lifespan_custom: 0
       empty: {  }
-      sorts: {  }
+      sorts:
+        date_ppub:
+          id: date_ppub
+          table: search_api_index_jnl
+          field: date_ppub
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: search_api
+          order: DESC
+          expose:
+            label: ''
+            field_identifier: ''
+          exposed: false
       arguments: {  }
       filters:
         type:
