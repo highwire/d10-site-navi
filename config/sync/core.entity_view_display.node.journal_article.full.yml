@@ -175,6 +175,7 @@ third_party_settings:
       children:
         - group_article
         - group_figures_tables
+        - group_supplemental
         - group_references
         - group_metrics
       label: 'Article Tabs'
@@ -243,7 +244,7 @@ third_party_settings:
       label: 'Info & Metrics'
       parent_name: group_article_tabs
       region: content
-      weight: 24
+      weight: 25
       format_type: highwire_tab
       format_settings:
         description: ''
@@ -292,7 +293,7 @@ third_party_settings:
       label: References
       parent_name: group_article_tabs
       region: content
-      weight: 23
+      weight: 24
       format_type: highwire_tab
       format_settings:
         description: ''
@@ -301,6 +302,21 @@ third_party_settings:
         classes: 'tab-content article__tabcontent-body'
         show_empty_fields: 0
         active: 0
+    group_supplemental:
+      children:
+        - article_supplementary_material
+      label: Supplemental
+      parent_name: group_article_tabs
+      region: content
+      weight: 23
+      format_type: highwire_tab
+      format_settings:
+        show_empty_fields: 0
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        active: 0
 _core:
   default_config_hash: XV9q37Mbz2XfiGOPxoDLLj8MKtnjsZESt4GLTPt4moU
 id: node.journal_article.full
@@ -308,6 +324,11 @@ targetEntityType: node
 bundle: journal_article
 mode: full
 content:
+  article_supplementary_material:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
   download_article_pdf:
     settings: {  }
     third_party_settings: {  }
