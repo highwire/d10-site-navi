@@ -64,6 +64,7 @@ dependencies:
     - field.field.node.journal_article.hwmd_contributors
     - field.field.node.journal_article.hwmd_contributors_plain_
     - field.field.node.journal_article.hwmd_figures_tables_article_
+    - field.field.node.journal_article.hwmd_keyword
     - field.field.node.journal_article.hwmd_long_article_
     - field.field.node.journal_article.hwmd_references
     - field.field.node.journal_article.issn_epub
@@ -101,6 +102,7 @@ dependencies:
     - field.field.node.journal_article.pisa_version
     - field.field.node.journal_article.prev_atom
     - field.field.node.journal_article.publisher_id
+    - field.field.node.journal_article.publisher_name
     - field.field.node.journal_article.publisher_unique_id
     - field.field.node.journal_article.pubmed_id
     - field.field.node.journal_article.related
@@ -249,6 +251,7 @@ hidden:
   article_open_access: true
   article_response_tab: true
   article_series_title: true
+  article_supplementary_material: true
   atom_id: true
   atom_type: true
   authors_full_name: true
@@ -308,6 +311,7 @@ hidden:
   hwmd_collection_detail: true
   hwmd_contributors_plain_: true
   hwmd_figures_tables_article_: true
+  hwmd_keyword: true
   hwmd_long_article_: true
   hwmd_references: true
   issn_epub: true
@@ -351,6 +355,7 @@ hidden:
   prev_next_pager: true
   prevnext_toc_pager: true
   publisher_id: true
+  publisher_name: true
   publisher_unique_id: true
   pubmed_id: true
   related: true
