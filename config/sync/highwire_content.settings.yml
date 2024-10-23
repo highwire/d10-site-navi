@@ -956,6 +956,11 @@ highwire_content_type_policy_field_mapping:
       freebird-type: text
       policy: jcorex-journal
     -
+      id: publisher_name
+      drupal-type: text
+      freebird-type: text
+      policy: jcorex-journal
+    -
       id: publisher_unique_id
       drupal-type: text
       freebird-type: text

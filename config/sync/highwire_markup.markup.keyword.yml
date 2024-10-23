@@ -1,0 +1,14 @@
+uuid: 80b88024-5d5e-4941-82fa-5e2d6307899e
+langcode: en
+status: true
+dependencies: {  }
+id: keyword
+label: Keyword
+profile_id: keyword
+configuration:
+  -
+    markup_processors_settings:
+      markup_processors: keywordurl
+    weight: '1'
+dw_logging: null
+exists_field: ''
