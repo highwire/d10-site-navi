@@ -13,8 +13,13 @@ _core:
   default_config_hash: LVOhyg7H7QDwr6gpoNdPFrAkn2jnmid8vWyUzqRd8js
 id: archive_per_volume-panels_variant-0
 label: Panels
+weight: 0
 variant: panels_variant
 variant_settings:
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: d5ab4722-a2c7-46f0-9e4f-5cabd8c09cac
   blocks:
     4354a981-e369-4179-ad48-14c4c9e3e4b8:
       id: jnl_archive_filter
@@ -73,11 +78,7 @@ variant_settings:
       region: right
       weight: 0
       uuid: dabd5d3f-60c1-4211-b4c3-f5df3ef02d3d
-  id: panels_variant
-  label: null
-  weight: 0
-  uuid: d5ab4722-a2c7-46f0-9e4f-5cabd8c09cac
-  page_title: 'Archive of all online content'
+  page_title: 'Archive of all online content Volume'
   layout: bs_2col_stacked
   layout_settings:
     label: ''
@@ -116,7 +117,6 @@ variant_settings:
   storage_type: page_manager
   storage_id: archive_per_volume-panels_variant-0
 page: archive_per_volume
-weight: 0
 selection_criteria: {  }
 selection_logic: and
 static_context: {  }
